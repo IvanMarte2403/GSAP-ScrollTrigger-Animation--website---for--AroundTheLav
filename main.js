@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 const endValue = document.querySelector('.website-content').offsetHeight * 0.75;
-    
+
 
 ScrollTrigger.create({
     trigger: ".website-content",

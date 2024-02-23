@@ -38,6 +38,21 @@ img{
     object-fit: cover;
 }
 
+#frase{
+    display: flex;
+    justify-content: space-around;
+}
+
+#frase span{
+    opacity: 0;
+    transform: translateX(100px
+    );
+}
+
+.fraseBienvenida{
+    font-size: 1.2rem;
+}
+
 .logo{
     position: fixed;
     top: 0; 
