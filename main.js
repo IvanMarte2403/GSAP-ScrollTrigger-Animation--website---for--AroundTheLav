@@ -128,7 +128,7 @@ gsap.from('.two',{
 
 let fotoTimeline = gsap.timeline();
 
-fotoTimeline.from('.focoInicio',{
+fotoTimeline.from('.focoInicioimg',{
     
     y: -10,
     repeat: -1,
