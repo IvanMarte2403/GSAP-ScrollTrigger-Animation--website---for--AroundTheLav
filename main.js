@@ -66,3 +66,108 @@ gsap.to(".img-holder img",{
         scrub: 1
     }
 });
+
+gsap.from('.fraseBienvenida',{
+    autoAlpha: 0,
+    y: 200, 
+    scale: 0,
+    duration: 1,
+    easeInOut: 'elastic.out(1, 0.3)',
+    scrollTrigger:{
+        trigger: '.one',
+        start: 'top center',
+        markers: true,
+    },
+});
+
+// ======Seccion 1======
+
+gsap.from('.one',{
+    autoAlpha: 1,
+    y: 50,
+    scrollTrigger:{
+        trigger: '.one',
+        start: 'top center',
+        end: 'bottom center',
+        scrub: true
+    }
+});
+
+gsap.from('.two',{
+    autoAlpha: 0,
+    y: 50, 
+    scrollTrigger:{
+        trigger: '.two',
+        start: 'top center',
+        end: 'bottom center',
+        scrub: true
+    }
+});
+
+// ====Aparacion de Logos =====
+
+// gsap.from('.patata-logo',{
+//     autoAlpha: 0,
+//     duration: 1, 
+//     scrollTrigger: {
+//         trigger: '.patata-logo',
+//         start: 'top center'
+//     }
+// });
+
+
+// gsap.from('.chopchop-logo',{
+//     autoAlpha: 0,
+//     duration: 1.4, 
+//     scrollTrigger: {
+//         trigger: '.chopchop-logo',
+//         start: 'top center'
+//     }
+// });
+
+let fotoTimeline = gsap.timeline();
+
+fotoTimeline.from('.focoInicio',{
+    
+    y: -10,
+    repeat: -1,
+    yoyo: true,
+    duration: 1,
+    ease: 'power1.inOut'
+})
+.from('.focoInicio',{
+    autoAlpha: 1,
+    y: 50,
+    scrollTrigger:{
+        trigger: '.one',
+        start: 'top center',
+        end: 'bottom center',
+        scrub: true
+    }
+});
+
+
+// =======Animación de Escritura=======
+let texto = document.querySelector('#parrafoEscritura').innerText;
+let contenedor = document.querySelector('#parrafoEscritura');
+let duracion = 0.02;
+
+contenedor.innerText = '';
+
+ScrollTrigger.create({
+  trigger: '#parrafoEscritura',
+  start: 'top center',
+  onEnter: () => {
+    for(let i=0; i < texto.length; i++){
+      let letra = document.createElement('span');
+      letra.innerText = texto[i];
+      contenedor.appendChild(letra);
+
+      gsap.from(letra, {
+        autoAlpha: 0,
+        delay: duracion * i,
+        duration: duracion, 
+      });
+    }
+  }
+});

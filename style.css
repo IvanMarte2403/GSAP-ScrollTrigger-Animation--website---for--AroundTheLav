@@ -14,23 +14,24 @@ html{
 }
 
 html,body{
-    font-family: 'Nuew Montreal', sans-serif;
+    font-family: Montserrat;
     height: 100%;
 }
 
 h1{
     font-size: 80px;
+    color: #fff;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -0.02rem;
 }
-
+/* 
 p{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     width: 50%;
-}
+} */
 
 img{
     width: 100%;
@@ -50,9 +51,19 @@ img{
 }
 
 .fraseBienvenida{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #fff;
 }
 
+.fraseBienvenida span{
+    background: linear-gradient(140deg,#E77A66,#C62672
+,#4185F4
+);
+  -webkit-background-clip: text;
+  color: transparent;  
+
+}
 .logo{
     position: fixed;
     top: 0; 
@@ -60,7 +71,7 @@ img{
     margin: 2em;
     width: 18px;
     height: 18px;
-    background: red;
+    background: #000;
     border-radius: 100%;
     z-index: 10000;
 }
@@ -81,13 +92,14 @@ img{
     display: flex;
     text-transform: uppercase;
 
+
 }
 
 .letters > div{
     flex: 1; 
     font-size: 13vw;
     font-weight: 400;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 
@@ -96,6 +108,7 @@ img{
     top: 0;
     width: 100%;
     min-height: 100vh;
+    background: #000;
 }
 
 .img-holder{
@@ -150,5 +163,91 @@ img{
     position: relative;
     left:30%; 
     margin: 4em 0; 
+}
+
+/* ======Contenido Desplazable======= */
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+    padding: 0 8rem;
 
 }
+
+.one{
+    background-color: rgb(36,164,138,);
+    margin-top: 2em;
+}
+.two{
+    background-color: rgb(39, 29, 150);
+}
+.three{
+    background-color: rgb(164, 145, 36);
+}
+.four{
+    background-color: rgb(164, 36, 74);
+}
+.five{
+    background-color: rgb(138, 36, 164);
+} 
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+
+/* =====section 1====== */
+
+.contenedorPadre{
+    display: flex;
+    justify-content:space-around;
+}
+
+.tituloBienvenida{
+    flex-direction: row;
+    width: 70%;
+    display: flex;
+    color: #fff;
+}
+
+.tituloBienvenida p{
+    margin-top: 1.2rem;
+    width: 70%;
+}
+
+.focoInicio{
+    display: flex;
+    width: 30%; 
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: #fff;
+}
+.focoInicio img{
+    padding: 1em;
+    width:100%;
+    height: auto;
+}
+
+.focoInicio p{
+
+}
+
+.marcas-bienvenida{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+.marcas-bienvenida .patata-logo{
+    width: 15%;
+}
+
+.marcas-bienvenida .chopchop-logo{
+    width: 24%;
+}
+
