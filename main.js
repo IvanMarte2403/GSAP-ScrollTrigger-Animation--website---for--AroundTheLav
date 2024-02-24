@@ -205,22 +205,7 @@ ScrollTrigger.create({
 //       });
 //     }
 //   });
-
-
-// // ======Seccion 3======
-
-
-
-// gsap.from('.three', {
-//     autoAlpha: 0,
-//     duration: 1,
-//     scrollTrigger: {
-//       trigger: '.three',
-//       start: 'top center'
-//     }
-//   });
-
-  gsap.from('.three', {
+gsap.from('.three', {
     x: '-100%',
     scrollTrigger: {
       trigger: '.three',
@@ -229,4 +214,18 @@ ScrollTrigger.create({
       scrub: true
     }
   });
- 
+
+
+// // ======Seccion 4======
+
+
+  gsap.from('.four', {
+    autoAlpha: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: '.four',
+      start: 'top center'
+    }
+  });
+
+

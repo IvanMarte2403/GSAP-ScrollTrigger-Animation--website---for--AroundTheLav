@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('font/ClashDisplay-Variable.ttf') format('truetype');
+}
 *{
     margin: 0;
     padding: 0;
@@ -94,8 +98,8 @@ img{
 .letters{
     flex: 1;
     display: flex;
-    text-transform: uppercase;
-
+    text-transform: uppercase;  
+    font-family: 'ClashDisplay';
 
 }
 
@@ -198,7 +202,11 @@ section{
         padding: 0 8rem;
 }
 .four{
-    background-color: rgb(164, 36, 74);
+    background-color:rgb(245, 245, 220);
+    align-items: normal;
+    justify-content: normal;
+    flex-direction: column;
+    height: auto;
 }
 .five{
     background-color: rgb(138, 36, 164);
@@ -269,7 +277,9 @@ section{
 
 
 .contenedor-imagen{
-    width: 100%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
 }
 
 .frase-autor{
@@ -303,3 +313,48 @@ section{
     height: 100%;
     background-color: #000000;
 }
+
+
+/* ======Seccion 4 ======== */
+
+.four h1{
+    padding: 1rem;
+    color: #000;
+    font-family: 'ClashDisplay';
+    border-bottom: 1px solid  #000;
+
+}
+
+.segundo-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-sencilla-razon{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-sencilla-razon img{
+    width: 70%;
+}
+.contenedor-sencilla-razon p    
+{
+    margin-bottom: 4rem;}
+
+
+.contenedor-sencilla-razon span{
+    position: relative
+    color #000;
+    overflow: hidden;
+}
+
+.contenedor-sencilla-razon div{
+    width: 50%;
+}
+
+
+
