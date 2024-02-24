@@ -33,6 +33,10 @@ p{
     width: 50%;
 } */
 
+.parrafos{
+    color: #fff;
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -178,11 +182,12 @@ section{
 .one{
     background-color: rgb(36,164,138,);
     margin-top: 2em;
-    height: 60vh !important;
+    height: 50vh !important;
 
 }
 .two{
-    background-color: rgb(39, 29, 150);
+    background-color: rgb(0, 0, 0);
+    justify-content: left;
 }
 .three{
     background-color: rgb(164, 145, 36);
@@ -250,3 +255,27 @@ section{
     padding: 1em;
 }
 
+
+/* ======Seccion 2====== */
+
+
+
+.contenedor-imagen{
+    width: 40%;
+}
+
+.frase-autor{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.frase-marketeros{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frase-autor h1{
+    font-size: 1.5rem;
+}
