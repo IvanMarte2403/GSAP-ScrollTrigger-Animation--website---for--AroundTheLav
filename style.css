@@ -202,11 +202,14 @@ section{
         padding: 0 8rem;
 }
 .four{
-    background-color:rgb(245, 245, 220);
+    margin-top: 1.3rem;
+    background-color:rgb(255, 255, 255);
     align-items: normal;
     justify-content: normal;
     flex-direction: column;
     height: auto;
+    padding-top: 4rem;
+    border-radius: 4rem 4rem 0 0;
 }
 .five{
     background-color: rgb(138, 36, 164);
