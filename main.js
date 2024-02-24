@@ -98,7 +98,7 @@ gsap.from('.two',{
     y: 50, 
     scrollTrigger:{
         trigger: '.two',
-        start: 'top center',
+        start: 'top 80%',
         end: 'bottom center',
         scrub: true
     }
@@ -146,28 +146,32 @@ fotoTimeline.from('.focoInicio',{
     }
 });
 
-
 // =======Animación de Escritura=======
 let texto = document.querySelector('#parrafoEscritura').innerText;
 let contenedor = document.querySelector('#parrafoEscritura');
-let duracion = 0.02;
+let duracion = 0.01;
+let animacionEjecutada = false; // Variable para rastrear si la animación ya se ha ejecutado
 
 contenedor.innerText = '';
 
 ScrollTrigger.create({
   trigger: '#parrafoEscritura',
-  start: 'top center',
+  start: 'top 75%',
+  y: 100,
   onEnter: () => {
-    for(let i=0; i < texto.length; i++){
-      let letra = document.createElement('span');
-      letra.innerText = texto[i];
-      contenedor.appendChild(letra);
+    if (!animacionEjecutada) { // Solo ejecutar la animación si no se ha ejecutado antes
+      for(let i=0; i < texto.length; i++){
+        let letra = document.createElement('span');
+        letra.innerText = texto[i];
+        contenedor.appendChild(letra);
 
-      gsap.from(letra, {
-        autoAlpha: 0,
-        delay: duracion * i,
-        duration: duracion, 
-      });
+        gsap.from(letra, {
+          autoAlpha: 0,
+          delay: duracion * i,
+          duration: duracion, 
+        });
+      }
+      animacionEjecutada = true; // Marcar la animación como ejecutada
     }
   }
 });

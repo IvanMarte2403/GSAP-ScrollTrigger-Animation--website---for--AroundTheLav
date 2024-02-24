@@ -167,7 +167,7 @@ img{
 
 /* ======Contenido Desplazable======= */
 section{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     scroll-snap-align: start;
@@ -178,6 +178,8 @@ section{
 .one{
     background-color: rgb(36,164,138,);
     margin-top: 2em;
+    height: 60vh !important;
+
 }
 .two{
     background-color: rgb(39, 29, 150);
@@ -217,6 +219,13 @@ section{
     width: 70%;
 }
 
+#parrafoEscritura{
+    margin-top: 2rem;
+}
+
+.botonScroll{
+    margin-top: 2rem;
+}
 .focoInicio{
     display: flex;
     width: 30%; 
@@ -231,9 +240,6 @@ section{
     height: auto;
 }
 
-.focoInicio p{
-
-}
 
 .marcas-bienvenida{
     width: 100%;
@@ -242,12 +248,5 @@ section{
     justify-content: space-around;
     align-items: center;
     padding: 1em;
-}
-.marcas-bienvenida .patata-logo{
-    width: 15%;
-}
-
-.marcas-bienvenida .chopchop-logo{
-    width: 24%;
 }
 
