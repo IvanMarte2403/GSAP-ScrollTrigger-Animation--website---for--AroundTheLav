@@ -104,6 +104,7 @@ gsap.from('.two',{
     }
 });
 
+
 // ====Aparacion de Logos =====
 
 // gsap.from('.patata-logo',{
@@ -202,5 +203,29 @@ ScrollTrigger.create({
         duration: 2,
         ease: 'power2.inOut'
       });
+    }
+  });
+
+
+// // ======Seccion 3======
+
+
+
+// gsap.from('.three', {
+//     autoAlpha: 0,
+//     duration: 1,
+//     scrollTrigger: {
+//       trigger: '.three',
+//       start: 'top center'
+//     }
+//   });
+
+  gsap.from('.three', {
+    x: '-100%',
+    scrollTrigger: {
+      trigger: '.three',
+      start: 'top bottom',
+      end: 'top center',
+      scrub: true
     }
   });

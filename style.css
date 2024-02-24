@@ -171,7 +171,7 @@ img{
 
 /* ======Contenido Desplazable======= */
 section{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     scroll-snap-align: start;
@@ -188,6 +188,9 @@ section{
 .two{
     background-color: rgb(0, 0, 0);
     justify-content: left;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .three{
     background-color: rgb(164, 145, 36);
@@ -238,6 +241,10 @@ section{
     flex-direction: column;
     padding: 2rem;
     color: #fff;
+    background: rgba(255, 254, 254, 0.2);
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 3.2rem;
+
 }
 .focoInicio img{
     padding: 1em;
