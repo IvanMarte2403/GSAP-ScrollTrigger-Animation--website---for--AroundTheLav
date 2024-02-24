@@ -174,9 +174,8 @@ section{
     height: 80vh;
     display: flex;
     justify-content: center;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     padding: 0 8rem;
-
 }
 
 .one{
@@ -184,8 +183,7 @@ section{
     margin-top: 2em;
     height: 50vh !important;
 
-}
-.two{
+}.two{
     background-color: rgb(0, 0, 0);
     justify-content: left;
     top: 0;
@@ -193,7 +191,11 @@ section{
     width: 100%;
 }
 .three{
-    background-color: rgb(164, 145, 36);
+    background-color: rgb(255, 255, 255);
+    padding: 0 !important;
+    width: 100%;
+        height: 60vh;
+        padding: 0 8rem;
 }
 .four{
     background-color: rgb(164, 36, 74);
@@ -212,7 +214,6 @@ section{
 
 .contenedorPadre{
     display: flex;
-    justify-content:space-around;
 }
 
 .tituloBienvenida{
@@ -268,13 +269,14 @@ section{
 
 
 .contenedor-imagen{
-    width: 40%;
+    width: 100%;
 }
 
 .frase-autor{
     width: 50%;
     display: flex;
     align-items: center;
+    padding: 4rem;
 }
 
 .frase-marketeros{
@@ -285,4 +287,19 @@ section{
 }
 .frase-autor h1{
     font-size: 1.5rem;
+    color: #000;
+}
+
+/* ======Seccion 3====== */
+
+.contenedorPadre3{
+    display: flex;
+    height: 100%;
+    margin-top: 3rem;
+}
+.fraseSeguros{
+    width: 50%;
+    padding: 2rem;
+    height: 100%;
+    background-color: #000000;
 }
