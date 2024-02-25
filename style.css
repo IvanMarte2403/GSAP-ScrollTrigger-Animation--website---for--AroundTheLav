@@ -239,7 +239,6 @@ section{
 }
 
 #parrafoEscritura{
-    margin-top: 2rem;
     width: 100%;
 }
 
@@ -330,8 +329,31 @@ section{
     border-width: 0px 2px 0px 0;
 }
 
+.boton-contactanos{
+    background: linear-gradient(45deg, #77a1d3, #79cbca, #e684ae);
+    background-size: 600% 600%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    transition: background 300ms ease-in-out;
+    width: 30%;
+    margin-top: 1.1rem; 
+    border-radius: 0.5rem;
+}
 
+.boton-contactanos a{
+    color: white;
+    text-decoration: none;
+}
 
+.boton-contactanos:hover{
+    background-position: 100% 0;
+}
 .seccion2-sub-recuadros img{
     width: 50%;
     height: auto;
@@ -342,7 +364,6 @@ section{
     display: flex;
     flex-direction: column;
     color: #fff;
-    height: 5vh;
 }
 
 .texturaEscritura{

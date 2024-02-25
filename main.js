@@ -263,3 +263,20 @@ textos.forEach((texto, i) => {
     }
   });
 });
+
+// =======Animacion Iframe=======
+// Selecciona el iframe
+let iframe = document.querySelector('.iframeVideo iframe');
+
+// Mueve el iframe fuera de la vista inicialmente y establece el origen de la transformación
+gsap.set(iframe, { autoAlpha: 0, rotationY: -90, transformOrigin: "center" });
+
+// Crea un ScrollTrigger para el iframe
+ScrollTrigger.create({
+  trigger: '.iframeVideo',
+  start: 'top center',
+  onEnter: () => {
+    // Mueve el iframe a su posición original y rota horizontalmente cuando el usuario hace scroll
+    gsap.to(iframe, { autoAlpha: 1, rotationY: 0, duration: 1 });
+  }
+});
