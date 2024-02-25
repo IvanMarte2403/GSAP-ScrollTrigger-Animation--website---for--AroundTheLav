@@ -147,35 +147,36 @@ fotoTimeline.from('.focoInicioimg',{
     }
 });
 
-// =======Animación de Escritura=======
-let texto = document.querySelector('#parrafoEscritura').innerText;
-let contenedor = document.querySelector('#parrafoEscritura');
-let duracion = 0.01;
-let animacionEjecutada = false; // Variable para rastrear si la animación ya se ha ejecutado
+// // =======Animación de Escritura=======
+// let texto = document.querySelector('#parrafoEscritura').innerText;
+// let contenedor = document.querySelector('#parrafoEscritura');
+// let duracion = 0.01;
+// let animacionEjecutada = false; // Variable para rastrear si la animación ya se ha ejecutado
 
-contenedor.innerText = '';
+// contenedor.innerText = '';
 
-ScrollTrigger.create({
-  trigger: '#parrafoEscritura',
-  start: 'top 75%',
-  y: 100,
-  onEnter: () => {
-    if (!animacionEjecutada) { // Solo ejecutar la animación si no se ha ejecutado antes
-      for(let i=0; i < texto.length; i++){
-        let letra = document.createElement('span');
-        letra.innerText = texto[i];
-        contenedor.appendChild(letra);
+// ScrollTrigger.create({
+//   trigger: '#parrafoEscritura',
+//   start: 'top bottom',
+//   y: 100,
+//   onEnter: () => {
+//     if (!animacionEjecutada) { // Solo ejecutar la animación si no se ha ejecutado antes
+//       for(let i=0; i < texto.length; i++){
+//         let letra = document.createElement('span');
+//         letra.innerText = texto[i];
+//         contenedor.appendChild(letra);
 
-        gsap.from(letra, {
-          autoAlpha: 0,
-          delay: duracion * i,
-          duration: duracion, 
-        });
-      }
-      animacionEjecutada = true; // Marcar la animación como ejecutada
-    }
-  }
-});
+//         gsap.from(letra, {
+//           autoAlpha: 0,
+//           delay: duracion * i,
+//           duration: duracion, 
+//           markers: true,
+//         });
+//       }
+//       animacionEjecutada = true; // Marcar la animación como ejecutada
+//     }
+//   }
+// });
 
 
 // ======Section2 =======
@@ -229,3 +230,36 @@ gsap.from('.three', {
   });
 
 
+// ======Movimiento de las imagenes======
+
+// Selecciona los elementos que queremos animar
+let imagenes = document.querySelectorAll('.seccion2-sub-recuadros img');
+let textos = document.querySelectorAll('.seccion2-sub-recuadros p');
+
+// Mueve las imágenes y el texto fuera de la vista inicialmente
+gsap.set(imagenes, { x: '-100vw' });
+gsap.set(textos, { x: '100vw' });
+
+// Crea un ScrollTrigger para cada imagen
+imagenes.forEach((imagen, i) => {
+  ScrollTrigger.create({
+    trigger: imagen,
+    start: 'top bottom',
+    onEnter: () => {
+      // Mueve la imagen a su posición original cuando el usuario hace scroll
+      gsap.to(imagen, { x: '0', duration: 1 });
+    }
+  });
+});
+
+// Crea un ScrollTrigger para cada texto
+textos.forEach((texto, i) => {
+  ScrollTrigger.create({
+    trigger: texto,
+    start: 'top bottom',
+    onEnter: () => {
+      // Mueve el texto a su posición original cuando el usuario hace scroll
+      gsap.to(texto, { x: '0', duration: 1 });
+    }
+  });
+});
