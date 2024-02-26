@@ -3,6 +3,13 @@
     src: url('../font/ClashDisplay-Variable.ttf') format('truetype');
 }
 
+:root{
+    --first-color: #ff66c4;
+    --seconday-color: #00bf63;
+    --third-color: #0390a7;
+    --primary-letter: #000;
+    --secondary-letter: #fff;
+}
 
 
 *{
@@ -22,7 +29,8 @@ html{
 
 html,body{
     font-family: Montserrat;
-    height: 100%;
+    height: auto;
+    overflow-y:auto;
 }
 
 h1{
@@ -210,8 +218,8 @@ section{
     border-radius: 4rem 4rem 0 0;
 }
 .five{
-    /* background-color: rgb(255, 101, 195); */
-    background-color:rgb(255, 255, 255);
+    background-color: var(--primary-letter);
+    /* background-color:rgb(255, 255, 255); */
     height: auto !important;
 
 } 
@@ -462,6 +470,11 @@ section{
     width: 50%;
 }
 
+.hilo-imagen{
+    width: 20% !important;
+    height: auto;
+}
+
 
 
 /* ======Seccion5====== */
@@ -476,11 +489,16 @@ section{
 
 .aumenta-tus-ventas-titulo{
     width: 60%;
+    color: var(--third-color); 
+    font-weight: 500;
 }
 .aumenta-tus-ventas-frase{
     width: 50%;
-    margin-top: 1rem
+    margin-top: 1rem;
 }
+
+
+
 .frase-aumenta-tus-ventas{
     width: 100%;
     margin-top:3rem;
@@ -499,4 +517,99 @@ section{
 
 .aumenta-palabra{
     height: 25vh;
+}
+
+
+/* ======Seccion6======= */
+
+.six{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.contenedor-titulo-six{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.contenedor-title-six{
+    width: 44%;
+}
+.contenedor-title-six div{
+    display: flex;
+    justify-items: center;
+}
+
+.contenedor-titulo-six h1{
+    color: #000;
+    font-family: 'ClashDisplay';
+    font-size: 1.2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 1.8rem;
+    text-align: center;
+}
+
+.contenedor-titulo-six p{
+    color: #fff;
+    font-weight:700;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background: var(--third-color);
+    border-radius: 1.8rem;
+}
+
+.contenedor-parrafo-six{
+    width: 55%;
+}
+
+.contenedor-portada-six{
+    margin-top: 2rem;
+}
+.contenedor-portada-six img{
+    height: 25rem;
+    border-radius: 2rem;
+}   
+
+.contenedor-frases-six{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.span-six{
+    background-color: var(--first-color);
+}
+
+.span-six2{
+    background-color: var(--secondary-letter);
+    color: #000;
+    font-weight: 500;
+    border-radius: 2.3rem;
+    padding: 0.2rem;
+}
+
+.span-six3{
+    background: transparent;
+    border: 4px solid var(--third-color);
+}
+
+.contenedor-informacion-six{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.texto-analisis ,.palabras-clave{
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.contenedor-informacion-six p{
+    color: #fff;
+    font-size: 0.8rem;
 }

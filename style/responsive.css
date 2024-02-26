@@ -119,4 +119,35 @@
     .aumenta-palabra{
         height: 10vh;
     }
+
+    /* ======Seccion 6====== */
+
+    .six{
+        padding: 0 2rem;
+    }
+
+    .contenedor-title-six{
+        flex-direction: column;
+    }
+    .contenedor-title-six h1{
+        font-size: 1.1rem;
+    }
+    .parrafo-six{
+        font-size: 0.7rem !important;
+    }
+
+    .contenedor-frases-six{
+        line-height: 2;
+    }
+
+    .contenedor-informacion-six{
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-analisis, .palabras-clave{
+        width: 45%;
+        text-align: start;
+    }
 }
+
+

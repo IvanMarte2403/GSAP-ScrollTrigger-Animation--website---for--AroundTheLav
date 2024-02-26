@@ -30,3 +30,14 @@ gsap.from(".frase-aumenta-tus-ventas .aumenta-palabra:nth-child(odd) h1", {
       scrub: true
     }
   });
+
+//Animación de Cambio de Color
+  gsap.to(".five", {
+    backgroundColor: "#ffffff",
+    scrollTrigger: {
+      trigger: ".five",
+      start: "top 75%", // Ajusta esto según tus necesidades
+      end: "bottom center", // Ajusta esto según tus necesidades
+      scrub: true
+    }
+  });
