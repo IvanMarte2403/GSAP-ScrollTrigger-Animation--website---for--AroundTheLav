@@ -1,17 +1,13 @@
 gsap.registerPlugin(ScrollTrigger);
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("load", function() {
   const contentHolderHeight = document.querySelector('.container').offsetHeight;
   const imgHolderHeight = window.innerHeight;
   const additionalScrollHeight = window.innerHeight;
 
   const totalBodyHeight = contentHolderHeight + imgHolderHeight + additionalScrollHeight;
   document.body.style.height = `${totalBodyHeight}px`;
-});
 
-const endValue = document.querySelector('.website-content').offsetHeight * 0.75;
-
-ScrollTrigger.create({
+  ScrollTrigger.create({
     trigger: ".website-content",
     start: "-0.1% top",
     end: "bottom bottom",
@@ -22,6 +18,11 @@ ScrollTrigger.create({
         gsap.set(".website-content", { position: 'fixed', top: '0' });
     }
 });
+});
+
+const endValue = document.querySelector('.website-content').offsetHeight * 0.75;
+
+
 
 gsap.to(".header .letters:first-child", {
     x: () => -innerWidth * 3,
