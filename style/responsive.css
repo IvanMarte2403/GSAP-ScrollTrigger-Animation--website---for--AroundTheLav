@@ -96,4 +96,27 @@
         width: 100%;
      }
 
+     /* ======Seccion 5====== */
+
+    .contenedorFive{
+        padding: 0 2rem;
+        padding-top: 1rem;
     }
+
+    .aumenta-tus-ventas-titulo{
+        width: 100%;
+        text-align: right;
+    }
+
+    .aumenta-tus-ventas-frase{
+        width: 100%;
+    }
+
+    .frase-aumenta-tus-ventas h1{
+        font-size: 4rem;
+    }
+
+    .aumenta-palabra{
+        height: 10vh;
+    }
+}

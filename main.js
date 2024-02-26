@@ -1,4 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
+gsap.set(window, { passive: true });
+
 document.addEventListener("DOMContentLoaded", function() {
   const contentHolderHeight = document.querySelector('.container').offsetHeight;
   const imgHolderHeight = window.innerHeight;
