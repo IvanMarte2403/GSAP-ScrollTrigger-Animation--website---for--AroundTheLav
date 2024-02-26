@@ -5,7 +5,7 @@ gsap.from(".frase-aumenta-tus-ventas .aumenta-palabra:nth-child(odd) h1", {
     scrollTrigger: {
       trigger: ".frase-aumenta-tus-ventas",
       start: "top bottom",
-      end: "55% bottom", // Ajustado a "75% bottom"
+      end: "95% bottom", // Ajustado a "75% bottom"
       scrub: true
     }
   });
@@ -15,7 +15,7 @@ gsap.from(".frase-aumenta-tus-ventas .aumenta-palabra:nth-child(odd) h1", {
     scrollTrigger: {
       trigger: ".frase-aumenta-tus-ventas",
       start: "top bottom",
-      end: "55% bottom", // Ajustado a "75% bottom"
+      end: "95% bottom", // Ajustado a "75% bottom"
       scrub: true
     }
   });
