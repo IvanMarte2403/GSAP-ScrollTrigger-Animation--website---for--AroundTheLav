@@ -184,16 +184,6 @@
         background-image: none;
     }
 
-    #menu {
-        height: 100vh; /* Hace que el menú ocupe toda la altura de la pantalla */
-        background-color: #000;
-    }
-    
-      #menu ul {
-        flex-direction: column; /* Cambia la dirección de los elementos del menú a vertical */
-        justify-content: center; /* Centra los elementos del menú verticalmente */
-        z-index: 1000000;
-    }
 
 }
 
