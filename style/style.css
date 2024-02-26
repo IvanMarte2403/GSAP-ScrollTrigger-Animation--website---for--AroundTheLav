@@ -9,6 +9,7 @@
     --third-color: #0390a7;
     --primary-letter: #000;
     --secondary-letter: #fff;
+    --font-familiy-primary: 'ClashDisplay';
 }
 
 
@@ -579,6 +580,7 @@ section{
     font-size: 1.2rem;
     text-align: center;
     color: #fff;
+    line-height: 2;
 }
 
 .span-six{
@@ -601,7 +603,6 @@ section{
 .contenedor-informacion-six{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: flex-end;
 }
 .texto-analisis ,.palabras-clave{
@@ -612,4 +613,73 @@ section{
 .contenedor-informacion-six p{
     color: #fff;
     font-size: 0.8rem;
+}
+
+/* ======Seccion 7===== */
+
+.titulo-seven h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--font-familiy-primary);
+}
+
+.seven{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: auto;
+    align-items: center;
+    background-image: url(../img/portadas/fase2.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.titulo-seven{
+    width: 80%;
+}
+
+.titulo-seven h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.portada-seven{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.portada-seven img{
+    width: 50%;
+    border-radius: 2rem 0 2rem 0;
+}
+
+.texto-seven p{
+    color: #fff;
+    text-align: right;
+    width: 50%;
+    line-height: 2;
+}
+
+.texto-seven{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    flex-direction: column;
+    padding: 2rem 5rem;
+}
+
+.instrucciones-seven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instruccion-contenedor{
+    color: #fff;
+    width: 40%;
+    margin-top: 0.8rem;
+    line-height: 1.6;
 }
