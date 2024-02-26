@@ -148,6 +148,42 @@
         width: 45%;
         text-align: start;
     }
+
+    .seven{
+        padding: 0 2rem;
+    }
+    .titulo-seven{
+        width: 100%;
+    }
+    .titulo-seven h1{
+        font-size: 1.5rem;
+    }
+    
+    .portada-seven img{
+        width: 90%;
+    }
+
+    .texto-seven{
+        flex-direction: row;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .texto-seven p{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .instrucciones-seven{
+        width: 100%;
+    }
+    .instruccion-contenedor{
+        width: 100%;
+    }
+
+    .seven{
+        background-image: none;
+    }
+
 }
 
 
