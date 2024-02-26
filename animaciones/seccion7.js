@@ -47,13 +47,13 @@ gsap.from(".contenedor-title-six h1", {
   });
 
   gsap.from(".titulo-seven", {
-    duration: 1, // Duración de la animación en segundos
-    autoAlpha: 0, // Opacidad inicial (0 = transparente, 1 = opaco)
-    scale: 0.5, // Tamaño inicial (0.5 = la mitad de su tamaño original)
-    ease: "power2.out", // Tipo de easing para la animación
-    scrollTrigger: {
-      trigger: ".titulo-seven", // El elemento que dispara la animación
-      start: "top center", // La animación comienza cuando el elemento llega al centro de la pantalla
-      toggleActions: "play none none reverse" // La animación se reproduce cuando se desplaza hacia abajo y se invierte cuando se desplaza hacia arriba
-    }
-  });
+  duration: 1, // Duración de la animación en segundos
+  autoAlpha: 0, // Opacidad inicial (0 = transparente, 1 = opaco)
+  scale: 0.5, // Tamaño inicial (0.5 = la mitad de su tamaño original)
+  ease: "power2.out", // Tipo de easing para la animación
+  scrollTrigger: {
+    trigger: ".titulo-seven", // El elemento que dispara la animación
+    start: "top center", // La animación comienza cuando el elemento llega al centro de la pantalla
+    toggleActions: "play none none reverse" // La animación se reproduce cuando se desplaza hacia abajo y se invierte cuando se desplaza hacia arriba
+  }
+});
