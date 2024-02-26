@@ -585,6 +585,7 @@ section{
 
 .span-six{
     background-color: var(--first-color);
+    display: inline-block;
 }
 
 .span-six2{
@@ -593,11 +594,15 @@ section{
     font-weight: 500;
     border-radius: 2.3rem;
     padding: 0.2rem;
+    display: inline-block;
+
 }
 
 .span-six3{
     background: transparent;
     border: 4px solid var(--third-color);
+    display: inline-block;
+
 }
 
 .contenedor-informacion-six{
