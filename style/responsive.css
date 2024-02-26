@@ -1,7 +1,98 @@
 @media only screen and (max-width: 600px) {
     
+    /* =======Seccion Header======= */
+
     .letters{ 
         font-size: 3vw;
     }
 
+    /* =======Primera Seccion======= */
+    .fraseBienvenida{ 
+        font-size: 1.0rem;
     }
+
+    .one{
+        padding: 0 2rem;
+    }
+
+    .focoInicioimg{
+        width: 10% !important;
+    }
+
+    }
+
+
+    /* ======Seccion 2 ======= */
+
+
+    .seccion2{
+        flex-direction: column;
+        padding:  0 2rem;
+    }
+
+    .seccion2-row1{
+        width: 100%;
+    }
+
+    .seccion2-row2{
+        width: 100%;
+    }
+
+    .seccion2-right{
+        padding: 0 1rem;
+    }
+    
+
+    .boton-contactanos{
+        width: 100%;
+    }
+
+
+    /* =======Seccion3====== */
+
+
+    .contenedorPadre3{
+        flex-direction: column;
+    }
+
+    .fraseSeguros{
+        width: 100%;
+    }
+    
+    .contenedor-imagen{
+        width: 80%;
+    }
+
+    .frase-autor H1{
+     font-size: 1.2rem;
+    }
+
+     /* ======Seccion4 ====== */
+
+
+     .four{
+        padding: 0 2rem;
+     }
+
+     .four-phase{
+        width: 100%;
+    }
+     .four-phase h1{
+        font-size: 2rem;
+        text-align: center;
+     }
+
+     .contenedor-sencilla-razon{
+        flex-direction: column;
+     }
+
+     .contenedor-sencilla-razon div{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .contenedor-sencilla-razon img{
+        width: 100%;
+     }
+
