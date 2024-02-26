@@ -27,21 +27,21 @@ ScrollTrigger.create({
   }
 });
 
-// Selecciona el elemento
-let phase = document.querySelector('.four-phase');
+// // Selecciona el elemento
+// let phase = document.querySelector('.four-phase');
 
-// Crea un ScrollTrigger para el elemento
-ScrollTrigger.create({
-  trigger: '.four-phase',
-  start: 'top bottom',
-  end: 'bottom top',
-  scrub: true,
-  markers: true,
-  onUpdate: (self) => {
-    // Mueve el elemento hacia arriba a medida que el usuario hace scroll hacia abajo
-    gsap.to(phase, { y: -self.progress * 100 });
-  }
-});
+// // Crea un ScrollTrigger para el elemento
+// ScrollTrigger.create({
+//   trigger: '.four-phase',
+//   start: 'top bottom',
+//   end: 'bottom top',
+//   scrub: true,
+//   markers: true,
+//   onUpdate: (self) => {
+//     // Mueve el elemento hacia arriba a medida que el usuario hace scroll hacia abajo
+//     gsap.to(phase, { y: -self.progress * 100 });
+//   }
+// });
 
 
 // // ======Seccion 4======
