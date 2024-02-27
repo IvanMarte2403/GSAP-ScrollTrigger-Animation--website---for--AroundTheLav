@@ -33,7 +33,7 @@ gsap.to(".header .letters:first-child", {
         end: `+=200%`,
         scrub: 1,
     }
-});
+}); 
 
 gsap.to(".header .letters:last-child", {
     x: () => innerWidth * 3,
