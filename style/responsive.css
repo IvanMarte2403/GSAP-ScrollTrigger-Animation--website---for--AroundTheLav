@@ -224,5 +224,22 @@
     .contenedor-up p{
         font-size: 0.9rem;
     }
+
+
+    /* ======Formulario======= */
+    .formulario-section{
+        padding: 0 2rem !important;
+        flex-direction: column;
+    }
+
+    .tituloFormulario h1{
+        font-size: 1.5rem;  
+    }
+
+    .contenedor-formulario{
+        flex-direction: column;
+    }
+
+
 }
 

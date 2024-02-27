@@ -890,3 +890,88 @@ font-weight: 600;
     flex-direction: column;
     align-items: flex-end;
 }
+
+/* ======Formulario====== */
+.formulario-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.formulario{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .campo {
+    margin-bottom: 20px;
+}
+
+.formulario .campo label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario .campo input,
+.formulario .campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formulario .campo.enviar {
+    text-align: right;
+}
+
+.formulario .campo.enviar input {
+    background-color: #007BFF;
+    color: #000;
+    cursor: pointer;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tituloFormulario{
+    display: flex;
+    width: 100%;
+}
+
+.tituloFormulario h1{
+    font-family: var(--font-familiy-primary);
+}
+
+/* ======Redes Sociales====== */
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.redes-sociales a {
+    color: #FFF; /* Cambia esto al color que desees */
+    font-size: 24px; /* Cambia esto al tamaño que desees */
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #007BFF; /* Cambia esto al color que desees cuando se pasa el mouse por encima */
+}
