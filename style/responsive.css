@@ -185,6 +185,44 @@
     }
 
 
-}
+    /* ========Seccion8======= */
 
+    .eight{
+        padding: 0 2rem;
+    }
+
+    .contenedor-fase3{
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .contenedorcompleto{
+        flex-direction: column;
+    }
+
+    .contendor-izq-eight{
+        width: 100%;
+    }
+
+    .subcontenedor-imagenes{
+        flex-direction: column;
+    }
+
+    .mvp{
+        width: 100%;
+    }
+    .producto-completo{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .contenedor-right-eight{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .contenedor-up p{
+        font-size: 0.9rem;
+    }
+}
 
