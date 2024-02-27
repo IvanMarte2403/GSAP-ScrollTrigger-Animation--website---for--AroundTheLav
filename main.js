@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
         gsap.set(".website-content", { position: 'fixed', top: '0' });
     }
 });
+
+ScrollTrigger.refresh();
+
 });
 
 const endValue = document.querySelector('.website-content').offsetHeight * 0.75;

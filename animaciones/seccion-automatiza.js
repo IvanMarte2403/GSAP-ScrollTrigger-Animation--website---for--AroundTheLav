@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
 
 
 // Animación de las palabras
@@ -12,15 +11,13 @@ gsap.from(".frase-partes-automatiza", {
     }
 });
 
-// Animación de cambio de color
-gsap.to(".frase-partes-automatiza", {
-    backgroundColor: "#000000",
+
+gsap.to(".automatiza-seccion", {
+    backgroundColor: "#000",
     scrollTrigger: {
-      trigger: ".frase-partes-automatiza",
-      start: "top center",
-      end: "bottom center",
+      trigger: ".automatiza-seccion",
+      start: "top 75%", // Ajusta esto según tus necesidades
+      end: "bottom center", // Ajusta esto según tus necesidades
       scrub: true
     }
-});
-
 });

@@ -859,7 +859,7 @@ section{
 
 
 .automatiza-seccion{
-    background-color: #ffff;
+    background: var(--secondary-letter);
     color: #fff;
     display: flex;
     height: auto;
