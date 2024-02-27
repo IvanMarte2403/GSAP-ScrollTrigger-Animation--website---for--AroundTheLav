@@ -688,3 +688,168 @@ section{
     margin-top: 0.8rem;
     line-height: 1.6;
 }
+
+.eight{
+    height: auto;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.contenedor-fase3{
+    width: 60%;
+}
+
+.contenedor-fase3 h1{
+    font-weight: bold;
+    font-family: var(--font-familiy-primary);
+    text-align: right;
+    font-size: 1.6rem;
+}
+
+.imagen-textos{
+    width: 40%;
+    height: 7rem;
+}
+
+.imagen-textos img{
+    border-radius: 2rem;
+}
+.fase-3-titulo{
+    color: #Fff;
+    font-size: 1.5rem;
+}
+
+.icono-contenedor{
+    display: flex;
+    width: 15%;
+    align-items: start;}
+.icono-contenedor img{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header-textos-contenedor{
+    color: #fff;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-textos-contenedor div{
+    width: 30%;
+}
+
+.header-textos-contenedor p{
+    font-size: 0.8rem;
+}
+
+.contenedorcompleto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.contendor-izq-eight{
+    width: 60%;
+}
+.contenedor-right-eight{
+    width: 30%;
+}
+
+.contenedor-imagen-eight img{
+    width: 100%;
+}
+
+
+
+.contenedor-imagen-eight{
+    width: 100%;
+}
+
+.contenedor-imagen-eight img{
+    border-radius: 2rem;
+}
+
+.subcontenedor-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 1.4rem;
+}
+
+.subcontenedor-imagenes h1{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.contenedor-up h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contenedor-up p{
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.mvp{
+    width: 40%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    flex-direction: column;
+}
+.mvp p{
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.producto-completo{
+    width: 40%;
+    padding: 2rem;
+    background: #fff;
+    display: flex;
+    border-radius: 2rem;
+    flex-direction: column;
+}
+
+.producto-completo p{
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+.contenedor-palabra{
+    background-color: var(--first-color);
+    padding: 2rem;
+    margin-top: 1.2rem;
+    border-radius: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-palabra p{
+    color: #fff;
+    
+}
+
+
+.cual-elegir p{
+    color: #fff;
+    font-weight: 500;
+    font-family: var(--font-familiy-primary);
+    margin-top: 1.2rem;
+}
+
+.cual-elegir-boton{
+    width: 45% !important;
+}
