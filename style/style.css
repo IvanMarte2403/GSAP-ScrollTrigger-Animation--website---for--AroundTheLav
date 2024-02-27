@@ -853,3 +853,40 @@ section{
 .cual-elegir-boton{
     width: 45% !important;
 }
+
+
+/* ======Automatiza Seccion=======l */
+
+
+.automatiza-seccion{
+    background-color: #ffff;
+    color: #fff;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2rem 4rem;
+}
+
+.frase-automatiza-little{
+    width: 50%;
+    display: flex;
+}
+
+.imagen-embudo{
+    width: 100%;
+}
+.embudo-automatiza{
+    width:  14%;
+}
+
+.letter-automatiza {
+text-align: left;
+font-weight: 600;
+}
+
+.frase-partes-automatiza div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
