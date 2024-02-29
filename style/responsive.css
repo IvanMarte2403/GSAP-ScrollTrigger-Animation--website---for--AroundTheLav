@@ -225,6 +225,13 @@
         font-size: 0.9rem;
     }
 
+    /* ======Automatiza====== */
+    .letter-automatiza{
+        font-size: 2.4rem;
+    }
+    .frase-automatiza-little{
+        width: 100%;
+    }
 
     /* ======Formulario======= */
     .formulario-section{
@@ -237,7 +244,7 @@
     }
 
     .contenedor-formulario{
-        flex-direction: column;
+        flex-direction: column  ;
     }
 
 

@@ -33,7 +33,6 @@ html,body{
     height: auto;
     overflow-y:auto;
 }
-
 h1{
     font-size: 80px;
     color: #fff;
@@ -41,6 +40,8 @@ h1{
     text-transform: uppercase;
     letter-spacing: -0.02rem;
 }
+
+
 /* 
 p{
     font-size: 18px;
@@ -70,21 +71,6 @@ img{
     );
 }
 
-.fraseBienvenida{
-    font-size: 2.2rem;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-}
-
-.fraseBienvenida span{
-    background: linear-gradient(140deg,#E77A66,#C62672
-,#4185F4
-);
-  -webkit-background-clip: text;
-  color: transparent;  
-
-}
 .logo{
     position: fixed;
     top: 0; 
@@ -162,6 +148,9 @@ img{
     margin: 2em 1em;
 }
 
+.row-container{
+    width: 100%;
+}
 .img{
     width: 200px;
     height: 275px;
@@ -231,64 +220,38 @@ section{
 }
 
 
-/* =====section 1====== */
+/* =====Seccion 1====== */
 
 .contenedorPadre{
     display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    font-family: var(--font-familiy-primary);
 }
 
-.tituloBienvenida{
-    flex-direction: row;
-    width: 100%;
-    text-align: center;
-    display: flex;
+
+.one{
+    padding: 2rem 4rem;
+}
+.frase-bienvenida h1{
+    font-size: 4.3rem;
+    font-weight: 400;
     color: #fff;
-;
+    text-align: left;
+    width: 85% ;
 }
 
-.tituloBienvenida p{
-    margin-top: 1.2rem;
-    width: 70%;
-}
-.tituloBienvendia-subcontenedor img{
-    width: 4%;
-    height: auto;
-}
+.frase-bienvenida span{
+    background: linear-gradient(140deg,#E77A66,#C62672
+,#4185F4
+);
+  -webkit-background-clip: text;
+  color: transparent;  
 
-#parrafoEscritura{
-    width: 100%;
-}
-
-.botonScroll{
-    margin-top: 2rem;
-}
-.focoInicio{
-    display: flex;
-    width: 30%; 
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem;
-    color: #fff;
-    background: rgba(255, 254, 254, 0.2);
-    border-top-left-radius: 4rem;
-    border-bottom-left-radius: 3.2rem;
-
-}
-.focoInicio img{
-    padding: 1em;
-    width:100%;
-    height: auto;
 }
 
 
-.marcas-bienvenida{
-    width: 100%;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1em;
-}
 
 
 /* ======Seccion 2====== */
@@ -957,7 +920,16 @@ font-weight: 600;
 
 /* ======Redes Sociales====== */
 
+.botton-whatsapp{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
+.botton-whatsapp p{
+    color: #fff;
+}
 .redes-sociales {
     display: flex;
     justify-content: center;
@@ -976,6 +948,8 @@ font-weight: 600;
     color: #007BFF; /* Cambia esto al color que desees cuando se pasa el mouse por encima */
 }
 
+
+/* ======Menu====== */
 .menu-lateral {
     height: 100%;
     width: 0;
@@ -1008,7 +982,7 @@ font-weight: 600;
 
 .boton-menu {
     position: fixed;
-    left: 0;
+    left: 1.2rem;
     bottom: 20px;
     font-size: 30px;
     color: var(--third-color);
