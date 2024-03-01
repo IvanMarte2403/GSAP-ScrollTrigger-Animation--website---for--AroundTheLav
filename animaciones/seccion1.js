@@ -26,4 +26,42 @@ ScrollTrigger.create({
   onLeaveBack: () => {
     gsap.to(span, { autoAlpha: 0, duration: 1 });
   }
+  
+});
+
+
+
+
+// ======Seccio2 ======
+
+let h1Fundadores = document.querySelector('.two-contenedor-titulo h1');
+gsap.set(h1Fundadores, { x: '-100vw', scale: 0.8 });
+
+ScrollTrigger.create({
+  trigger: h1Fundadores,
+  start: 'top center',
+  onEnter: () => {
+    gsap.to(h1Fundadores, { x: '0', scale: 1, duration: 1 });
+  },
+  onLeaveBack: () => {
+    gsap.to(h1Fundadores, { x: '-100vw', scale: 0.8, duration: 1 });
+  }
+});
+
+
+
+// =====Seccion de Logos=======
+
+let logos = document.querySelectorAll('.two-marcas-iconos img');
+
+gsap.set(logos, { autoAlpha: 0 });
+
+logos.forEach((logo, i) => {
+  ScrollTrigger.create({
+    trigger: logo,
+    start: 'top center',
+    onEnter: () => {
+      gsap.to(logo, { autoAlpha: 1, duration: 1, repeat: 2, yoyo: true });
+    }
+  });
 });
