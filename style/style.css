@@ -248,11 +248,11 @@ section{
 
 }
 .frase-bienvenida h1{
-    font-size: 4.3rem;
+    font-size: 3.4rem;
     font-weight: 400;
     color: #fff;
     text-align: left;
-    width: 85% ;
+    width: 80% ;
 }
  
 .frase-bienvenida span{
@@ -523,6 +523,94 @@ section{
     font-size: 3rem;
     font-weight: bold;
 }
+
+
+/* ================Seccion 5 ================ */
+
+.five{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    padding: 1rem 8rem !important;
+}
+.five-frase1{
+    width: 100%;
+}
+
+.five-frase1 h1{
+    font-size: 4.0rem;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--font-familiy-primary);
+}
+
+.five-frase2{
+    display: flex;
+    flex-direction: row;
+}
+
+.five-frase-marketeros{
+    margin-left: 10vh;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+.five-frase3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+}
+.five-frase2-contenedor-imagen{
+    display: flex;
+    justify-content: center;
+
+}
+.five-frase2-contenedor-imagen img{
+    width: 60%;
+    height: auto !important;
+}
+.texto-frase2-nube p{
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 1.2rem;
+}
+
+.five-frase3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19vh;
+}
+.five-frase3 p{
+    color: #fff;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.frase4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.frase4 h1{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(140deg,#E77A66,#C62672
+    ,#4185F4
+    );
+      -webkit-background-clip: text;
+      color: transparent;  
+    
+}
+
+
 
 /* ======Seccion6======= */
 
