@@ -7,232 +7,183 @@
     }
 
     /* =======Primera Seccion======= */
-    .fraseBienvenida{ 
-        font-size: 1.0rem;
-    }
 
     .one{
         padding: 0 2rem;
     }
-
-    .focoInicioimg{
-        width: 10% !important;
-    }
-
-  
-
-
-    /* ======Seccion 2 ======= */
-
-
-    .seccion2{
-        flex-direction: column;
-        padding:  0 2rem;
-    }
-
-    .seccion2-row1{
+    .frase-bienvenida{
         width: 100%;
     }
-
-    .seccion2-row2{
-        width: 100%;
-    }
-
-    .seccion2-right{
-        padding: 0 1rem;
-    }
-    
-
-    .boton-contactanos{
+    .frase-bienvenida h1{ 
+        font-size: 2rem;
         width: 100%;
     }
 
 
-    /* =======Seccion3====== */
+    /* ============Segunda Seccion ============== */
 
 
-    .contenedorPadre3{
+    .two{
+        margin-top: 10vh;
+        width: 100%;
+        padding: 0 2rem;
         flex-direction: column;
     }
 
-    .fraseSeguros{
+    .columna-50{
         width: 100%;
     }
-    
-    .contenedor-imagen{
+    .two-marcas-iconos{
+        flex-direction: column;
+        margin-top: 7vh;
+    }
+
+    .icono-contenedor2{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .icono-contenedor2 img{
         width: 80%;
     }
 
-    .frase-autor H1{
-     font-size: 1.2rem;
-    }
-
-     /* ======Seccion4 ====== */
-
-
-     .four{
-        padding: 0 2rem;
-     }
-
-     .four-phase{
+    .icono-contenedor{
         width: 100%;
-    }
-     .four-phase h1{
-        font-size: 2rem;
-        text-align: center;
-     }
-
-     .contenedor-sencilla-razon{
-        flex-direction: column;
-     }
-
-     .contenedor-sencilla-razon div{
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-     }
-
-     .contenedor-sencilla-razon img{
-        width: 100%;
-     }
-
-     /* ======Seccion 5====== */
-
-    .contenedorFive{
-        padding: 0 2rem;
-        padding-top: 1rem;
+        margin-top: 5vh;
     }
 
-    .aumenta-tus-ventas-titulo{
-        width: 100%;
-        text-align: right;
-    }
-
-    .aumenta-tus-ventas-frase{
-        width: 100%;
-    }
-
-    .frase-aumenta-tus-ventas h1{
-        font-size: 4rem;
-    }
-
-    .aumenta-palabra{
-        height: 10vh;
-    }
-
-    /* ======Seccion 6====== */
-
-    .six{
-        padding: 0 2rem;
-    }
-
-    .contenedor-title-six{
-        flex-direction: column;
-    }
-    .contenedor-title-six h1{
-        font-size: 1.1rem;
-    }
-    .parrafo-six{
-        font-size: 0.7rem !important;
-    }
-
-    .contenedor-frases-six{
-        line-height: 2;
-    }
-
-    .contenedor-informacion-six{
-        justify-content: center;
-        align-items: center;
-    }
-    .texto-analisis, .palabras-clave{
-        width: 45%;
-        text-align: start;
-    }
-
-    .seven{
-        padding: 0 2rem;
-    }
-    .titulo-seven{
-        width: 100%;
-    }
-    .titulo-seven h1{
-        font-size: 1.5rem;
+    .icono-contenedor img{
+        width: 30%;
     }
     
-    .portada-seven img{
+    /* ======Seccion 3========= */
+
+    .three{
+        padding: 0 2rem !important;
+        flex-direction: column;
+    }
+
+    .row-three{
+        width: 100%;
+    }
+
+    .row-three-texto p{
+        font-size: 1rem;
+    }
+
+    .three-segundo-contenedor{
+        flex-direction: column;
+    }
+
+    .three-necesidad{
+        width: 100%;
+    }
+
+    .three-palabras-div{
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .three-div-h1{
+        font-size: 0.6rem;
+        align-items: center;
+        justify-content: center;
         width: 90%;
     }
 
-    .texto-seven{
-        flex-direction: row;
-        width: 100%;
-        padding: 0 2rem;
+    .three-div-h1 h1{
+        font-size: 1rem;
+        letter-spacing: 6px;
+        margin-top: 0.9rem;
     }
-    .texto-seven p{
-        width: 100%;
-        text-align: center;
+
+
+    .four{
+        padding: 0 2rem !important;
+    }
+    .four-titulo{
+        margin-top: 5vh;
+        padding: 0;
+    }
+    .four-carousel-imagenes{
+        flex-direction: column;
     }
     
-    .instrucciones-seven{
+    .four-contenedor-imagenes{
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .four-contenedor-imagenes img{
+        width: 70%;
+    }
+
+    .four-frase1{
         width: 100%;
     }
-    .instruccion-contenedor{
-        width: 100%;
+
+    .four-frase1 h1{
+        font-size: 2.3rem;
+        text-align: center;
     }
 
-    .seven{
-        background-image: none;
-    }
-
-
-    /* ========Seccion8======= */
-
-    .eight{
-        padding: 0 2rem;
-    }
-
-    .contenedor-fase3{
-        margin-top: 2rem;
-        width: 80%;
-    }
-
-    .contenedorcompleto{
+    .four-frase2{
         flex-direction: column;
     }
 
-    .contendor-izq-eight{
-        width: 100%;
+    .four-leyendo{
+        margin-top: 5vh;
+    }
+    .four-leyendo h1{
+        font-size: 2rem;
+    }
+    .four-leyendo2 h1{
+        font-size: 2rem;
+    }
+    .four-leyendo2{
+        margin-top: 5vh;
     }
 
-    .subcontenedor-imagenes{
+
+    .four-frase4{
+        width: 100%;
         flex-direction: column;
     }
 
-    .mvp{
-        width: 100%;
+    .five{
+        padding: 0 2rem !important;
     }
-    .producto-completo{
-        width: 100%;
-        margin-top: 2rem;
-    }
-
-    .contenedor-right-eight{
-        width: 100%;
-        margin-top: 2rem;
-    }
-
-    .contenedor-up p{
-        font-size: 0.9rem;
-    }
-
-    /* ======Automatiza====== */
-    .letter-automatiza{
-        font-size: 2.4rem;
-    }
-    .frase-automatiza-little{
+    
+    .five-frase1{
         width: 100%;
     }
 
+    .five-frase1 h1{
+        font-size: 2.7rem;
+    }
+
+    .five-frase2{
+        flex-direction: column;
+    }
+
+    .five-frase-marketeros{
+        margin-top: 5vh;
+        font-size: 1.5rem;
+    }
+
+
+    .five-frase3{
+        margin-top: 5vh;
+    }
+
+    .five-frase3 p{
+        width: 100%;
+    }
+
+    .frase4 h1{
+
+        font-size: 2.5rem;
+    }
     /* ======Formulario======= */
     .formulario-section{
         padding: 0 2rem !important;

@@ -19,7 +19,7 @@ ScrollTrigger.create({
 
 ScrollTrigger.create({
   trigger: span,
-  start: 'top center',
+  start: 'top 25%',
   onEnter: () => {
     gsap.to(span, { autoAlpha: 1, duration: 0.4});
   },
@@ -39,7 +39,7 @@ gsap.set(h1Fundadores, { x: '-100vw', scale: 0.8 });
 
 ScrollTrigger.create({
   trigger: h1Fundadores,
-  start: 'top center',
+  start: 'top 75%',
   onEnter: () => {
     gsap.to(h1Fundadores, { x: '0', scale: 1, duration: 1 });
   },
