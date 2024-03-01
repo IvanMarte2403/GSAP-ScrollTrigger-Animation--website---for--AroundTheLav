@@ -4,12 +4,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $mensaje = $_POST["mensaje"];
 
-    $para = "ivanmamz@gmai.com";
-    $asunto = "Cotización Página ";
-    $cuerpo = "Nombre: $nombre\nEmail: $email\nMensaje:\n$mensaje";
+    // Aquí puedes procesar los datos del formulario como quieras
+    // Por ejemplo, puedes enviar un correo electrónico con los datos del formulario
+    $to = "ivanmamz@gmail.com";
+    $subject = "Nuevo mensaje de $nombre";
+    $body = "Nombre: $nombre\nEmail: $email\nMensaje: $mensaje";
 
-    $cabeceras = "From: $email";
-
-    mail($para, $asunto, $cuerpo, $cabeceras);
+    if (mail($to, $subject, $body)) {
+        echo "Mensaje enviado con éxito";
+    } else {
+        echo "Error al enviar el mensaje";
+    }
+} else {
+    echo "Solicitud no válida";
 }
 ?>

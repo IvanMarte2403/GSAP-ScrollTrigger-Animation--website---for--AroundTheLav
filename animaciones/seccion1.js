@@ -1,4 +1,18 @@
-// =======APARICION DE LA FRASE, H1 LLEGA POR LA IZQUIERDA Y EL SPAN APARECE=======
+document.querySelector('form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Evita que el formulario se envíe de la forma predeterminada
+
+  let formData = new FormData(this);
+
+  fetch('enviar.php', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.text())
+  .then(response => {
+    alert(response); // Muestra una alerta con la respuesta del servidor
+  })
+  .catch(error => console.error('Error:', error));
+});
 
 let h1 = document.querySelector('.frase-bienvenida h1');
 let span = document.querySelector('.frase-bienvenida span');

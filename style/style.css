@@ -1,8 +1,19 @@
 @font-face {
     font-family: 'ClashDisplay';
-    src: url('../font/ClashDisplay-Variable.ttf') format('truetype');
+    src: url('../font/ClashDisplay-Variable.eot'); /* IE9 Compat Modes */
+    src: url('../font/ClashDisplay-Variable.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/ClashDisplay-Variable.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/ClashDisplay-Variable.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font/ClashDisplay-Variable.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/ClashDisplay-Variable.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+
+/* Only for servers */
+/* @font-face {
+    font-family: 'ClashDisplay';
+    src: url('../font/ClashDisplay-Variable.woff2') format('woff2');
+} */
 
 
 :root{
@@ -94,7 +105,7 @@ img{
     display: flex;
     width: 100%;
     z-index: 2;
-
+    
 }
 
 .letters{
@@ -656,6 +667,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 9000000;
 
 }
 .formulario{
@@ -703,6 +715,7 @@ section{
     display: flex;
     flex-direction: row;
     width: 100%;
+    z-index: 9000000;
 }
 
 .tituloFormulario{
