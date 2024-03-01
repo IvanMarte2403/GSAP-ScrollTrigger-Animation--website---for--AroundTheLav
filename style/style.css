@@ -392,6 +392,138 @@ section{
     display: flex;
     align-items:start;
 }
+
+/* =============SECCION 4 ================ */
+
+.four{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 8rem;
+}
+.four-titulo{
+    width: 60%;
+    display: flex;  
+    justify-content: start;
+    padding: 0rem 4rem;
+    border-bottom: 1px solid #000;
+}
+
+.four-titulo h1{
+    font-size: 2.5rem;
+    color: #000;
+    font-family: var(--font-familiy-primary);
+    font-weight: 500;
+}
+
+.contenedor-padre-four{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-carousel-imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.four-contenedor-imagenes{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-carousel{
+    background-color: #000;
+    color: #fff;
+    padding: 1.8rem;
+    border-radius: 2rem;
+}
+
+.texto-carousel p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.four-frase1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+
+}
+
+.four-frase1 h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.four-frase2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.four-leyendo{
+    margin-top: 10vh;
+    display: flex;
+    align-items: start;
+}
+
+
+.four-leyendo2{
+    margin-top: 10vh;
+    display: flex;
+    align-items: end;
+    margin-top: 30vh;
+}
+
+.four-leyendo2 h1{
+    color: var(--primary-letter);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.four-leyendo h1{
+    color: var(--first-color);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.four-frase3{
+    margin-top: 10vh;
+    width: 100%;
+}
+
+
+.four-frase3 h1{
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.four-frase4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16vh;
+    margin-bottom: 16vh;
+}
+
+.four-frase4 h1{
+    color: #000;    
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 /* ======Seccion6======= */
 
 .span-six{
@@ -420,6 +552,14 @@ section{
     display: inline-block;
 
 }
+
+.span-six5{
+    background: transparent;
+    border: 4px solid var(--first-color);
+    display: inline-block;
+
+}
+
 
 
 /* ======Formulario====== */
