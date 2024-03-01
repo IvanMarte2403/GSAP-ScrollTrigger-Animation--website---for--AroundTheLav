@@ -356,7 +356,7 @@ section{
 }
 
 .row-three-texto p{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: left;
     margin-top: 1rem;
     color: #fff;
@@ -794,3 +794,10 @@ section{
     font-size: 36px;
     margin-left: 50px;
 }
+
+
+
+
+  .three-div-h1 h1 {
+    visibility: hidden;
+  }
