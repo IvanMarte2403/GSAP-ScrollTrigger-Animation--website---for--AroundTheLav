@@ -3,11 +3,21 @@ var boton = document.getElementById('botonMenu');
 var closebtn = document.querySelector('.closebtn');
 
 boton.addEventListener('click', function() {
-    if (menu.style.width === '250px') {
-        menu.style.width = '0';
-    } else {
-        menu.style.width = '250px';
+
+    if(window.innerWidth > 768) {
+        if (menu.style.width === '250px') {
+            menu.style.width = '0';
+        } else {
+            menu.style.width = '250px';
+        }
+    }else{
+        if (menu.style.width === '100%') {
+            menu.style.width = '0';
+        } else {
+            menu.style.width = '100%';
+        }
     }
+    
 });
 
 closebtn.addEventListener('click', function() {
