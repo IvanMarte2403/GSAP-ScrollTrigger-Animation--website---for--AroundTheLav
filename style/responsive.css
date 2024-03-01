@@ -198,6 +198,11 @@
         flex-direction: column  ;
     }
 
+    .imagen-bienvenida img{
+        width: 100%;
+        top: 1vh;
+    }
+
 
 }
 

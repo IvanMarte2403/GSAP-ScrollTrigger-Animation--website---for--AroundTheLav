@@ -15,7 +15,6 @@ closebtn.addEventListener('click', function() {
 });
 
 var dropdown = document.querySelector('.dropdown');
-var dropdownContent = document.querySelector('.dropdown-content');
 
 
 dropdown.addEventListener('mouseover', function() {
@@ -30,6 +29,7 @@ dropdown.addEventListener('mouseover', function() {
     }
   });
 
+  var dropdownContent = document.querySelector('.dropdown-content');
 
 dropdown.addEventListener('click', function() {
   if (dropdownContent.style.display === 'block') {

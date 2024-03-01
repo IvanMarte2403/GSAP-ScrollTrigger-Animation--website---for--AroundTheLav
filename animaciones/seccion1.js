@@ -63,6 +63,24 @@ ScrollTrigger.create({
 });
 
 
+gsap.to(".two", {
+  backgroundColor: 'black',
+  scrollTrigger: {
+    trigger: ".two",
+    start: "top center",
+    end: "bottom center",
+    toggleActions: "play none none reverse"
+  }
+});
+
+gsap.from(".imagen-bienvenida img", {
+  duration: 2, 
+  x: -20, 
+  y: -20, 
+  yoyo: true, 
+  repeat: -1, 
+  ease: "power1.inOut"
+});
 
 // =====Seccion de Logos=======
 
