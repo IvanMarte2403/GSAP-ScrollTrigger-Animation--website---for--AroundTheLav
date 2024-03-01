@@ -13,3 +13,28 @@ boton.addEventListener('click', function() {
 closebtn.addEventListener('click', function() {
     menu.style.width = '0';
 });
+
+var dropdown = document.querySelector('.dropdown');
+var dropdownContent = document.querySelector('.dropdown-content');
+
+
+dropdown.addEventListener('mouseover', function() {
+    if (window.innerWidth > 768) {
+      menu.style.width = '90vh';
+    }
+  });
+  
+  dropdown.addEventListener('mouseout', function() {
+    if (window.innerWidth > 768) {
+      menu.style.width = '0';
+    }
+  });
+
+
+dropdown.addEventListener('click', function() {
+  if (dropdownContent.style.display === 'block') {
+    dropdownContent.style.display = 'none';
+  } else {
+    dropdownContent.style.display = 'block';
+  }
+});

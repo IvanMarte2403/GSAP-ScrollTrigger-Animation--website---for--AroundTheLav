@@ -761,9 +761,9 @@ section{
 /* ======Menu====== */
 .menu-lateral {
     height: 100%;
-    width: 0;
+    width: 0; /* Cambia esto a 'auto' */
     position: fixed;
-    z-index: 20000000;
+    z-index: 200000;
     top: 0;
     left: 0;
     background-color: #111;
@@ -771,7 +771,12 @@ section{
     transition: 0.5s;
     padding-top: 60px;
 }
-
+@media (max-width: 768px) {
+    .menu-lateral {
+      width: 100% !important; /* Hace que el menú lateral ocupe todo el ancho de la pantalla */
+      height: 100%; /* Hace que el menú lateral ocupe toda la altura de la pantalla */
+    }
+  }
 .hamburguesa-boton{
     color: #fff;
 }
@@ -792,7 +797,7 @@ section{
 .boton-menu {
     position: fixed;
     left: 1.2rem;
-    bottom: 20px;
+    top: 20px;
     font-size: 30px;
     color: var(--third-color);
     background: none;
@@ -808,7 +813,47 @@ section{
     margin-left: 50px;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160vh;
+    top: -20%;
+    left: 160%; /* Mueve el menú desplegable a la derecha */
+    z-index: 1;
+    background-color: #0000; /* Añade un color de fondo */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Añade una sombra */
+    padding: 12px 16px; /* Añade un poco de espaciado */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #fff; /* Cambia el color del texto */
+  }
 
+  @media (max-width: 768px) {
+    .dropdown-content {
+      position: static; /* Hace que el menú desplegable se muestre debajo del elemento .dropdown */
+      width: 100%; /* Hace que el menú desplegable ocupe todo el ancho del menú lateral */
+    }
+  }
+  
+  .dropdown-content a {
+    color: #ffff; /* Cambia el color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    display: block; /* Hace que los enlaces se muestren como bloques */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; /* Cambia el color de fondo de los enlaces al pasar el cursor sobre ellos */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* =========Boton de Whatsapp======== */
 
 
   .three-div-h1 h1 {
