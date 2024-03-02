@@ -203,6 +203,81 @@
         top: 1vh;
     }
 
+    .two-contenedor-titulo h1{
+        width: 100%;
+        font-size: 2.4rem;
+    }
 
+    .six{
+        padding: 0 2rem !important;
+        margin-top: 9vh;
+    }
+
+    .six-frase-principal h1{
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .six-frase2{
+        flex-direction: column;
+    }
+
+    .six-frase-necesitamos{
+        width: 100%;
+    }
+    .six-frase-necesitamos h1{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+
+    .six-traje{
+        flex-direction: column;
+    }
+
+    .six-traje-texto{
+        width: 100%;
+    }
+
+    .six-traje-frase{
+        width: 100%;
+    }
+
+    .six-traje-icono{
+        margin-top: 5vh;
+    }
+
+    .six-traje-icono img{
+        width: 30%;
+    }
+
+    .six-traje-frase2{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+
+
+    /* =======Seven======= */
+
+    .seven{
+        padding: 0 2rem !important;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    .seven-aproach{
+        display: none !important;
+    }
+    
+    .seven-texto{
+        width: 100%;
+    }
+
+    .numeros-ventas{
+        padding: 1rem;
+        margin-bottom: 5vh;
+    }
 }
 

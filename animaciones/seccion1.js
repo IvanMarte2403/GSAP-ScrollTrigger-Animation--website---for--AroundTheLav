@@ -246,3 +246,73 @@ ScrollTrigger.create({
     gsap.to('.four-frase3 h1', { autoAlpha: 1, duration: 1 });
   }
 });
+
+gsap.from("#frase-sencilla", {
+  autoAlpha: 0,
+  scrollTrigger: {
+    trigger: "#frase-sencilla",
+    start: "top center",
+    toggleActions: "play none none none"
+  }
+});
+
+gsap.from("#texto-frase-sencilla", {
+  autoAlpha: 0,
+  scrollTrigger: {
+    trigger: "#texto-frase-sencilla",
+    start: "top center",
+    toggleActions: "play none none none"
+  }
+});
+
+gsap.from(".five-frase1", {
+  scrollTrigger: {
+    trigger: ".five-frase1",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  y: 100, // Ajusta esto según tus necesidades
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});
+
+gsap.from(".five-frase-marketeros", {
+  scrollTrigger: {
+    trigger: ".five-frase-marketeros",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  x: -100, // Ajusta esto según tus necesidades
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});
+
+
+gsap.set('.texto-frase2-nube p', { autoAlpha: 0 });
+
+ScrollTrigger.create({
+  trigger: '.texto-frase2-nube p',
+  start: 'top center',
+  onEnter: () => {
+    gsap.to('.texto-frase2-nube p', { autoAlpha: 1, duration: 1 });
+  }
+});
+
+// Animación para el span
+gsap.from("#span-around", {
+  scrollTrigger: {
+    trigger: ".five-frase3",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});
+
+// Animación para el resto del párrafo
+gsap.from(".five-frase3 p", {
+  scrollTrigger: {
+    trigger: ".five-frase3",
+    start: "top center", // Ajusta esto según tus necesidades
+    delay: 1, // Ajusta esto según tus necesidades
+  },
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});

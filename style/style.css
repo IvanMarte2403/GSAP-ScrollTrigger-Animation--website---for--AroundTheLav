@@ -774,6 +774,67 @@ section{
     margin-top: 5vh;
     font-size: 1.3rem;
 }
+
+
+/* ==========Seccion 7=========== */
+
+.seven{
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.seven-texto{
+    width: 70%;
+}
+
+.seven-texto h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--third-color)
+}
+
+.seven-texto p{
+    color: #fff;
+}
+
+.inbound-seven{
+    margin-top: 5vh;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.trafico-seven{
+    margin-top: 5vh;
+    font-size: 1.4rem;
+
+}
+
+.genera-seven{
+    margin-top: 5vh;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.numero-seven{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.numeros-ventas{
+    padding: 4rem;
+}
+.numeros-ventas{
+    font-size: 2rem;
+}
+
+.seven-marketing{
+    font-size: 1.2rem;
+}
 /* ======Formulario====== */
 .formulario-section{
     display: flex;
