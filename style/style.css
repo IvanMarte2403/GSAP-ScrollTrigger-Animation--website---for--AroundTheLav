@@ -668,9 +668,112 @@ section{
 
 /* ======Seccion6======= */
 
+.six{
+    width: 100%;
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 10vh;
+}
 
 
+.six-frase-principal h1{
+    width: 80%;
+    font-size: 3.5rem;    
+    color: #000;
+    font-weight: bold;
+}
 
+.six-instagram{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10vh;
+}
+
+.six-instagram p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.six-imagen img{
+    border-radius: 0 40px 0 40px;
+}
+.six-frase2{
+    display: flex;
+    margin-top: 6vh;
+    flex-direction: row;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #000;
+}
+.six-frase-necesitamos{
+    width: 60%;
+    border-right: 1.2px solid #000;
+}
+.six-frase-necesitamos h1{
+    color: #000;
+    font-size: 2.1rem;
+    font-weight: 600;
+    font-family: var(--font-familiy-primary );
+}
+
+.six-mano{
+    width: 40%;
+    margin-left: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.six-mano img{
+    width: 40%;
+}
+
+.six-traje{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.six-frase3{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.six-traje-texto{
+    width: 40%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: var(--font-familiy-primary);
+    border-right:1px solid #000;
+}
+
+.six-traje-frase{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.six-traje-icono{
+    width: 50%;
+}
+
+.six-traje-icono img{
+    width: 15%;
+}
+
+.six-traje-frase2{
+    width: 100%;
+}
+
+.six-traje-frase2 p{
+    font-family: var(--font-familiy-primary);
+    margin-top: 5vh;
+    font-size: 1.3rem;
+}
 /* ======Formulario====== */
 .formulario-section{
     display: flex;
