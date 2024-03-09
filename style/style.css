@@ -798,39 +798,47 @@ section{
 
 .five{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 15vh;
     padding: 1rem 8rem !important;
+ 
+}
+
+.five-izq{
+    width: 30%;
+    background-image: url('/img/recursos/tiras.png')!important;
+    background-repeat: no-repeat;
+}
+
+.five-der{
+    width: 70%;
+    padding: 2rem;
 }
 .five-frase1{
     width: 100%;
 }
 
 .five-frase1 h1{
-    font-size: 4.0rem;
+    font-size: 6rem;
     width: 100%;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     font-family: var(--font-familiy-primary);
 }
 
 .five-frase2{
     display: flex;
     flex-direction: row;
+    margin-bottom: 10vh;
+    justify-content: space-between;
 }
 
 .five-frase-marketeros{
-    margin-left: 10vh;
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
-.five-frase3{
-    display: flex;
-    flex-direction: column;
-    margin-top: 8vh;
-}
 .five-frase2-contenedor-imagen{
     display: flex;
     justify-content: center;
@@ -844,18 +852,22 @@ section{
     font-size: 2rem;
     color: #fff;
     margin-top: 1.2rem;
+    font-weight: 600;
 }
 
 .five-frase3{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 19vh;
+    align-items: left;
+    flex-direction: column;
+
 }
 .five-frase3 p{
     color: #fff;
-    width: 60%;
-    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 .frase4{

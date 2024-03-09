@@ -203,9 +203,16 @@
         width: 100%;
         flex-direction: column;
     }
+    /* ========Seccion 5  ======== */
 
     .five{
         padding: 0 2rem !important;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .five-der{
+        width: 100%;
     }
     
     .five-frase1{
@@ -228,16 +235,21 @@
 
     .five-frase3{
         margin-top: 5vh;
+        width: 100%;
     }
 
     .five-frase3 p{
         width: 100%;
+        font-size: 1.5rem;
+        text-align: left;
     }
 
     .frase4 h1{
 
         font-size: 2.5rem;
     }
+
+
     /* ======Formulario======= */
     .formulario-section{
         padding: 0 2rem !important;
