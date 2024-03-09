@@ -36,10 +36,32 @@
 
     .one-video-contenedor{
         flex-direction: column;
+        width: 100%;
     }
 
+    .one-video-iframe{
+            width: 100%;
+    }
     .one-video-iframe iframe{
         width:  100%;
+    }
+
+    .info-video{
+        width: 100%;
+        padding: 0;
+    }
+
+    .info-video h1{
+        font-size: 2rem;
+    }
+
+    .info-video h1{
+        text-align: center;
+        margin: 0;
+    }
+
+    .one-boton-contenedor2{
+        margin: 0;
     }
     /* ============Segunda Seccion ============== */
 
@@ -299,6 +321,56 @@
     .numeros-ventas{
         padding: 1rem;
         margin-bottom: 5vh;
+    }
+
+    .two-contenedor-titulo{
+        padding: 0;
+    }
+
+    .two-contenedor-titulo h1{
+        text-align: center;
+    }
+
+    .two-varias-marcas{
+        flex-direction: column;
+    }
+
+    .titulo-varias-marcas {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .titulo-varias-marcas h1{
+        padding: 1rem;
+        margin: 0;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .two-galeria{
+        padding: 0;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    .two-marcas{
+        flex-direction: column;
+    }
+
+    .marca-icono-1{
+        width: 30%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .marcas-icono-3{
+        width: 80%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .marca-icono-2{
+        width: 100%;
     }
 }
 

@@ -405,9 +405,9 @@ section{
   
 .two{
     width: 100%;
-    padding: 0rem;
+    padding: 2rem 4rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #fff;
     overflow-x: hidden;
 
@@ -426,7 +426,34 @@ section{
     border-radius: 0 1rem;
     font-family: var(--font-familiy-primary);
     font-weight: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
 
+.titulo-varias-marcas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2rem;
+    padding-top: 0rem;
+    margin-left: 1.2rem;
+}
+
+.two-varias-marcas h1{
+    font-size: 3.2rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    padding-top: 0;
+}
+
+
+.two-varias-marcas{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .two-contenedor-titulo h1{
@@ -434,15 +461,94 @@ section{
     font-size: 4rem;
     text-align: left;
     font-weight: 600;
+    width: 90%;
 }
 
-.two-marcas-iconos{
+
+.two-fundadores-boton{
+    margin-top: 0;
+}
+
+.two-fundadores-boton button{
+    background-color: #fff !important;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+}
+
+.two-boton-clase a{
+    color: #000;
+    font-weight: 600;
+}
+
+.two-galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 8rem;
+}
+.imagen-galeria{
+    margin-bottom: 0.5rem;
+}
+
+.imagen-galeria img{
+    border-radius: 1.2rem;
+    width: 100%;
+    height: auto;
+}
+
+.columna-galeria{
+    display: flex;
+    flex-direction: column;
+}
+
+.two-marcas-icono{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
 }
 
+.two-marcas{
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.marca-icono-1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marca-icono-1 img{
+    width: 60%;
+}
+
+.marca-icono-2 img{
+    width:  60%;
+}
+
+.marca-icono-2{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcas-icono-3{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.marcas-icono-3 img{
+    width: 40%;
+}
 .icono-contenedor{
     width: 25%;
     display: flex;
