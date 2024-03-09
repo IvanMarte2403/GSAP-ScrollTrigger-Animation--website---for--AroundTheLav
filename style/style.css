@@ -46,6 +46,7 @@ html,body{
     font-family: Montserrat;
     height: auto;
     overflow-y:auto;
+    overflow-x: hidden;
 }
 h1{
     font-size: 80px;
@@ -132,6 +133,7 @@ img{
     width: 100%;
     min-height: 100vh;
     background: #000;
+    overflow-x: hidden !important;
 }
 
 .img-holder{
@@ -237,6 +239,8 @@ section{
     background-color: rgb(36,164,138,);
     margin-top: 2em;
     height: auto;
+    padding: 2rem 8rem;
+    overflow-x: hidden;
 }
 .three{
     background-color: rgb(0, 0, 0);
@@ -287,25 +291,95 @@ section{
 }
 
 
-.one{
-    padding: 2rem 4rem;
 
-}
 .frase-bienvenida h1{
-    font-size: 3.4rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 700;
     color: #fff;
     text-align: left;
-    width: 80% ;
+    width: 100% ;
+    text-align: center;
 }
  
-.frase-bienvenida span{
+.one-creado{
     background: linear-gradient(140deg,#E77A66,#C62672
 ,#4185F4
 );
   -webkit-background-clip: text;
-  color: transparent;  
+  color: transparent !important;  
+  font-size: 3.6rem !important;
+  margin-top: 2.4rem;
+}
 
+.one-boton-contenedor{
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: right;
+    align-items: center;
+}
+
+.one-boton-contenedor2{
+    width: 100%;
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-boton{
+    padding: 1rem 2.4rem;
+    background: #000;
+    border: 1px solid #fff;
+}
+
+.one-boton2{
+    padding: 1rem 2.4rem;
+    background: #c62672;
+    border: 1px solid #fff;
+}
+.one-boton a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.one-boton2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* =========Section One Video ======== */
+.one-video{
+    height: auto;
+    margin-top: 10vh;
+    margin-bottom:  10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.one-video-contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #c62672;
+}
+
+.one-video-iframe{
+    width: 60%;
+}
+.info-video{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.info-video h1{
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 .imagen-bienvenida{
@@ -320,6 +394,10 @@ section{
     left: 20vh;
 }
 
+.imagen-bienvenida iframe{
+    margin-top: 4rem;
+}
+
 
 
 
@@ -331,6 +409,8 @@ section{
     display: flex;
     flex-direction: row;
     background-color: #fff;
+    overflow-x: hidden;
+
 }
 
 .columna-50{
@@ -388,6 +468,8 @@ section{
 
 .three{
     padding: 2rem 6rem !important;
+        overflow-x: hidden;
+
 }
 
 .row-three{
@@ -453,6 +535,8 @@ section{
     display: flex;
     justify-content: center;
     padding: 2rem 8rem;
+    overflow-x: hidden;
+
 }
 .four-titulo{
     width: 60%;
@@ -509,9 +593,14 @@ section{
     justify-content: center;
     align-items: center;
     margin-top: 15vh;
+    flex-direction: column;
 
 }
 
+
+.four-nosotros{
+    text-align: left !important;
+}
 .four-frase1 h1{
     font-size: 4.5rem;
     font-weight: 700;
@@ -842,17 +931,19 @@ section{
     justify-content: center;
     flex-direction: column;
     z-index: 9000000;
-
+    background-color: #fff;
+    padding-top: 2rem;
+    height: auto;
 }
 .formulario{
     width: 100%;
     max-width: 600px;
     padding: 20px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5); /* Negro transparente */
+    backdrop-filter: blur(10px); /* Añade el efecto de cristal */
     border-radius: 4px;
     color: #fff;
 }
-
 .formulario form {
     display: flex;
     flex-direction: column;
@@ -880,9 +971,10 @@ section{
 }
 
 .formulario .campo.enviar input {
-    background-color: #007BFF;
+    background-color: #fff;
     color: #000;
     cursor: pointer;
+
 }
 
 .contenedor-formulario{
@@ -899,19 +991,34 @@ section{
 
 .tituloFormulario h1{
     font-family: var(--font-familiy-primary);
+    color: #000;
+}
+
+.contenedor-padre-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-padre-formulario img{
+    width: 100%;
+    
 }
 
 /* ======Redes Sociales====== */
 
 .botton-whatsapp{
-    color: #fff;
+    color: #000;
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .botton-whatsapp p{
-    color: #fff;
+    color: #000;
+    font-size: 1.2rem;
 }
 .redes-sociales {
     display: flex;
@@ -922,7 +1029,7 @@ section{
 }
 
 .redes-sociales a {
-    color: #FFF; /* Cambia esto al color que desees */
+    color: #000; /* Cambia esto al color que desees */
     font-size: 24px; /* Cambia esto al tamaño que desees */
     transition: color 0.3s ease;
 }
@@ -1050,3 +1157,10 @@ section{
   .whatsapp-button i {
     font-size: 2em;
   }
+
+  .numero-ventas{
+    font-size: 5rem;
+    color: var(--first-color);
+  }
+
+  

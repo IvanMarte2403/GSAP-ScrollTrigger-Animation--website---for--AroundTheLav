@@ -316,3 +316,54 @@ gsap.from(".five-frase3 p", {
   opacity: 0,
   duration: 1, // Ajusta esto según tus necesidades
 });
+
+
+//Animacion para Creatividad + Trabajo Duro
+gsap.from(".six-frase-principal", {
+  scrollTrigger: {
+    trigger: ".six-frase-principal",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  x: -100, // Ajusta esto según tus necesidades
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});
+
+gsap.from(".six-imagen img", {
+  scrollTrigger: {
+    trigger: ".six-imagen img",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  scale: 0.8, // Ajusta esto según tus necesidades
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});
+// Animación de parpadeo para el texto
+gsap.to(".six-frase-necesitamos", {
+  scrollTrigger: {
+    trigger: ".six-frase-necesitamos",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  opacity: 0,
+  duration: 0.5, // Ajusta esto según tus necesidades
+  repeat: 1, // Repite la animación solo una vez (parpadea dos veces)
+  yoyo: true, // Vuelve a la opacidad original después de cada repetición
+});
+
+gsap.from(".six-traje-texto p", {
+  scrollTrigger: {
+    trigger: ".six-traje-texto p",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});
+
+gsap.from(".six-traje-frase2 p", {
+  scrollTrigger: {
+    trigger: ".six-traje-frase2 p",
+    start: "top center", // Ajusta esto según tus necesidades
+  },
+  opacity: 0,
+  duration: 1, // Ajusta esto según tus necesidades
+});

@@ -15,11 +15,32 @@
         width: 100%;
     }
     .frase-bienvenida h1{ 
-        font-size: 2rem;
+        font-size: 1.2rem;
         width: 100%;
     }
 
 
+    .one-creado{
+        font-size: 2rem !important;
+    }
+
+    .one-boton-contenedor{
+        justify-content: center;
+    }
+    /* ========Seccion One video =======[] */
+
+    .one-video{
+        padding: 0 2rem;
+    }
+    
+
+    .one-video-contenedor{
+        flex-direction: column;
+    }
+
+    .one-video-iframe iframe{
+        width:  100%;
+    }
     /* ============Segunda Seccion ============== */
 
 
