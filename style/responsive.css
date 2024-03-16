@@ -13,12 +13,18 @@
     }
     .frase-bienvenida{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .frase-bienvenida h1{ 
-        font-size: 1.2rem;
-        width: 100%;
+        font-size: 1.5rem;
+        width: 80%;
+        font-weight: 600;
     }
 
+    
 
     .one-creado{
         font-size: 2rem !important;
@@ -71,16 +77,55 @@
         padding: 0 2rem;
         flex-direction: column;
     }
+    .two-galeria{
+        padding: 0;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
 
+   
+    .two-marcas{
+        flex-direction: column;
+    }
+    .two-contenedor-titulo{
+        padding: 0;
+    }
+
+    .two-contenedor-titulo h1{
+        text-align: center;
+        width: 100%;
+        font-size: 2.4rem;
+    }
+
+    .two-varias-marcas{
+        flex-direction: column;
+    }
 
     .columna-50{
         width: 100%;
     }
+
+
+    /* =======Seccion 2======= */
     .two-marcas-iconos{
         flex-direction: column;
         margin-top: 7vh;
     }
 
+    .imagen-galeria{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 2.5vh;
+    }
+
+    .marca-icono-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+   
     .icono-contenedor2{
         width: 100%;
         margin-left: 0;
@@ -144,11 +189,14 @@
 
     .three-footer{
         margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
     .three-footer img{
-        width: 200%;
-        position: relative;
-        left: -10%;
+        width: 120%;
+        content: url(../img/recursos/necesidad-footer-2.png);
+
     }
     /* ========Seccion four======== */
 
@@ -203,6 +251,12 @@
         width: 100%;
         flex-direction: column;
     }
+
+    .four-nosotros{
+        margin-top: 5vh;
+        font-size: 1.5rem !important;
+        padding: 1.2rem;
+    }
     /* ========Seccion 5  ======== */
 
     .five{
@@ -254,10 +308,12 @@
     .formulario-section{
         padding: 0 2rem !important;
         flex-direction: column;
+        margin-top: 10vh;
     }
 
     .tituloFormulario h1{
         font-size: 1.5rem;  
+        margin-top: 1rem;
     }
 
     .contenedor-formulario{
@@ -269,11 +325,14 @@
         top: 1vh;
     }
 
-    .two-contenedor-titulo h1{
-        width: 100%;
-        font-size: 2.4rem;
-    }
+    .contenedor-padre-formulario{
+        flex-direction: column;
+    }    
 
+
+    /* ========Seccion 6 ======= */
+
+    
     .six{
         padding: 0 2rem !important;
         margin-top: 9vh;
@@ -333,6 +392,9 @@
         margin-top: 10vh;
     }
 
+    .elemento2{
+        display: none;
+    }
     .seven-aproach{
         display: none !important;
     }
@@ -346,17 +408,6 @@
         margin-bottom: 5vh;
     }
 
-    .two-contenedor-titulo{
-        padding: 0;
-    }
-
-    .two-contenedor-titulo h1{
-        text-align: center;
-    }
-
-    .two-varias-marcas{
-        flex-direction: column;
-    }
 
     .titulo-varias-marcas {
         padding: 0;
@@ -372,15 +423,7 @@
         font-size: 1.8rem;
     }
 
-    .two-galeria{
-        padding: 0;
-        margin-top: 2rem;
-        flex-direction: column;
-    }
-    .two-marcas{
-        flex-direction: column;
-    }
-
+ 
     .marca-icono-1{
         width: 30%;
         margin-bottom: 2rem;
@@ -394,7 +437,25 @@
     }
     .marca-icono-2{
         width: 100%;
-        margin-bottom: 10vh;
-    }
+        margin-bottom: 2rem;}
 }
 
+
+
+/* =======Eight======== */
+
+.eight{
+    padding: 0 2rem !important;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.eight-titulo h1{
+    width: 100% !important;
+    font-size: 2.4rem;
+}
+
+.eight-titulo{
+    width: 100%;
+    margin-top: 5vh;
+}

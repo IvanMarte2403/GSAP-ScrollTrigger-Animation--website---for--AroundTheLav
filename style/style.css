@@ -736,7 +736,7 @@ section{
 
 .four-nosotros{
     text-align: left !important;
-    margin-top: 6vh;
+    margin-top: 6 vh;
     font-size: 2.4rem ;
 }
 
@@ -1022,10 +1022,37 @@ section{
     padding: 2rem 8rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+.elemento1{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 90%;
+}
 
+.elemento2{
+    position: absolute;
+    width: 10%;
+    height: auto;
+}
+
+.seven-aproach{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+}
+
+.seven-aproach h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
 .seven-texto{
     width: 70%;
 }
@@ -1033,7 +1060,7 @@ section{
 .seven-texto h1{
     font-size: 3.5rem;
     font-weight: 600;
-    color: var(--third-color)
+    color: #4185F4;
 }
 
 .seven-texto p{
@@ -1074,6 +1101,71 @@ section{
 
 .seven-marketing{
     font-size: 1.2rem;
+}
+
+/* ================Seccion 8================ */
+
+.eight{
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 10vh;
+}
+
+.eight-titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.eight-titulo h1{
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(140deg,#E77A66,#C62672
+    ,#4185F4
+    );
+      -webkit-background-clip: text;
+      color: transparent !important;  
+
+      font-size: 3rem;
+     width: 70% !important;
+
+}
+
+
+.eight-menu-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-footer-row{
+    width: 100%;
+    margin-top: 5vh;
+    border-bottom: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.menu-footer-row i{
+    font-size: 1.2rem;
+    color: #000;
+    padding: 2rem;
+}
+.menu-footer-row h1{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0, 0.5);
+    font-weight: 600;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding: 1rem;
+    padding-left: 0;
 }
 /* ======Formulario====== */
 .formulario-section{
