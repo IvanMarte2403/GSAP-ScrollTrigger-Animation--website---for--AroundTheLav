@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+
+.menu-around-the-lab{
+    width: 1000%;
+    padding: 0;
+}
+
+.aumenta-two{
+    flex-direction: column;
+}
+
+.imagen-metodologia{
+    display: none;
+}
+
+.imagen-clientes{
+    margin-top: 2vh;
+    width: 100%;
+}
+
+
+.menu-aumenta-tus-ventas{
+    width: 100%;
+    padding: 2rem;
+}
+
+.website-three{
+    padding: 0;
+    flex-direction: column;
+}
+
+.three-fraseizq{
+    width: 100%;
+    padding: 2rem;
+}
+
+.three-fraseder{
+    width: 100%;
+    padding: 2rem;
+}
+
+.three-a{
+    margin-top: 0;
+    padding: 2rem;
+}
+
+.section-space{
+    padding: 2rem;
+}
+
+
+
+.titulo-frase1 h1{
+    font-size: 4rem;
+}
+
+.subtitulo-frase1 p{
+    width: 90%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.texto-fase1-a{
+    width:  100%;
+}
+
+.container-seccion-marcas{
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+}
+
+}
