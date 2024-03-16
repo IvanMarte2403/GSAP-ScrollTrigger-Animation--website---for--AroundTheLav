@@ -324,3 +324,31 @@ img{
     width: 40%;
     height: auto;
 }
+
+/* =====Seccion Propuesta de Valor====== */
+
+.propuesta-de-valor{
+    width: 100%;
+}
+
+.propuesta-de-valor h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    width: 100%;
+    font-family: var(--font-familiy-primary);
+}
+
+.li-propuesta{
+    padding: 1.5rem;
+    width: 70%;
+}
+
+
+.frase-listo{
+    margin-top: 5vh;
+}
+.frase-listo h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
