@@ -307,7 +307,7 @@ section{
 );
   -webkit-background-clip: text;
   color: transparent !important;  
-  font-size: 3.6rem !important;
+  font-size: 3.0rem !important;
   margin-top: 2.4rem;
 }
 
@@ -322,7 +322,7 @@ section{
 .one-boton-contenedor2{
     width: 100%;
     display: flex;
-    margin-top: 10rem;
+    margin-top: rem;
     justify-content: center;
     align-items: center;
 }
@@ -335,8 +335,9 @@ section{
 
 .one-boton2{
     padding: 1rem 2.4rem;
-    background: #c62672;
+    background-color: #fff;
     border: 1px solid #fff;
+    border-radius: 0.5rem;
 }
 .one-boton a{
     text-decoration: none;
@@ -345,7 +346,7 @@ section{
 
 .one-boton2 a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 
 /* =========Section One Video ======== */
@@ -364,19 +365,23 @@ section{
     flex-direction: row;
     padding: 2rem;
     border-radius: 2rem;
-    background-color: #c62672;
+    background-color: #000000;
+    border: 2px solid #fff;
 }
 
 .one-video-iframe{
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .info-video{
-    padding: 2rem;
     display: flex;
     flex-direction: column;
 }
 .info-video h1{
-    padding: 3rem;
+    padding: 2rem;
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
@@ -458,7 +463,7 @@ section{
 
 .two-contenedor-titulo h1{
     padding: 1.2rem;
-    font-size: 4rem;
+    font-size: 3.2rem;
     text-align: left;
     font-weight: 600;
     width: 90%;
@@ -492,13 +497,14 @@ section{
 
 .imagen-galeria img{
     border-radius: 1.2rem;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
 .columna-galeria{
     display: flex;
     flex-direction: column;
+    margin-right: 0.9rem;
 }
 
 .two-marcas-icono{
@@ -528,7 +534,7 @@ section{
 }
 
 .marca-icono-2 img{
-    width:  60%;
+    width:  50%;
 }
 
 .marca-icono-2{
@@ -547,7 +553,11 @@ section{
 }
 
 .marcas-icono-3 img{
-    width: 40%;
+    width: 30%;
+}
+
+.marca-icono-4 img{
+    width: 60%;
 }
 .icono-contenedor{
     width: 25%;
@@ -726,9 +736,12 @@ section{
 
 .four-nosotros{
     text-align: left !important;
+    margin-top: 6vh;
+    font-size: 2.4rem ;
 }
+
 .four-frase1 h1{
-    font-size: 4.5rem;
+    font-size: 3.2rem;
     font-weight: 700;
     color: #000;
 }
