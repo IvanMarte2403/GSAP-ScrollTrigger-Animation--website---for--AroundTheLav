@@ -84,4 +84,58 @@
 }
 
 
+/* =======Automatizado de Ventas====== */
+
+.titulo-principal h1{
+    margin-top: 5vh;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.container-informacion{
+    flex-direction: column;
+    padding: 0;
+}
+
+.frase-around{
+    width: 100%;
+    border-right: none;
+    border-bottom: 3px solid #000;
+}
+
+.frase-around p{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.imagen-embudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-informacion-2{
+
+    flex-direction: column;
+}
+
+.texto-herramientas{
+    width: 100%;
+}
+
+.texto-herramientas p{
+    font-size: 1.5rem;
+
+}
+
+.nurturing{
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.nurturing p{
+    font-size: 1.5rem;
+
+
 }
