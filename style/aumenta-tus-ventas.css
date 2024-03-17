@@ -352,3 +352,44 @@ img{
     text-align: center;
     font-size: 1.4rem;
 }
+
+
+/* ======Fase 3 ====== */
+
+.texto-3{
+    font-weight: 600;
+}
+
+.texto2-3{
+    font-weight: 600;
+    margin-top: 10vh;
+    width: 90%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.fase3-titulo{
+    font-size: 4.3rem !important;
+}
+
+.subtitulo-3{
+    color: var(--first-color);
+    font-weight: 600;
+    font-size: 2.5rem !important;
+}
+
+.no-height{
+    margin-top: 1rem !important;
+}
+
+
+
+/* ======Fase 4====== */
+
+.four-contenido{
+    width: 100%;
+}
+
+.four-contenido p{
+    width: 80% !important;
+}

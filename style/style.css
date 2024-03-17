@@ -1373,10 +1373,17 @@ section{
     background-color: #f1f1f1; /* Cambia el color de fondo de los enlaces al pasar el cursor sobre ellos */
   }
   
-  .dropdown:hover .dropdown-content {
+  /* .dropdown:hover .dropdown-content{
     display: block;
   }
 
+  .dropdow .dropdown-contenet:hove{
+    display: block;
+  } */
+
+  .show{
+    display: block;
+  }
 /* =========Boton de Whatsapp======== */
 
 
