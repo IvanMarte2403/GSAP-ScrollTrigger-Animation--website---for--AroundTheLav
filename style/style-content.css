@@ -257,3 +257,160 @@ img{
     width: 40%;
     height: auto;
 }
+
+
+/* =======Metodología Seccion ===== */
+
+.metodologia-around{
+    width: 100%;
+    background-color: #000;
+    padding: 0 20vh;
+}
+
+
+.metodologia-titulo{
+    display: flex;  
+    flex-direction: row;
+}
+.metologia-titulo-container{
+    width: 95%;
+    margin-top: 10vh;
+}
+
+.metologia-titulo-container h1{
+    color: #fff;    
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-familiy-primary);
+} 
+.metodologia-logo-container{
+    width: 8%;
+}
+
+.metodologia-logo-container img{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+
+.contenedor-contenido-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+ 
+.contenido-izq{
+    width: 45%;
+}
+
+.contenido-der{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    margin-top: 1.2vh;
+}
+
+.contenido-izq img{
+    width: 80%;
+}
+
+.contenido-der h1{
+    font-size: 1.8rem;
+    font-family: var(--font-familiy-primary);
+    font-weight: 500;
+    color: #fff;
+}
+
+.contenido-der p{
+    color: #fff;
+    margin-top: 0.9rem;
+    margin-top: 2rem;
+}
+
+.contenido-der ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-der li{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+
+/* =======Seccion 'No Olvides Tambien' ======= */
+
+.titulo-container-no-olvides h1{
+    font-size: 4rem;
+    margin-top: 10vh;
+    font-family: var(--font-familiy-primary);
+    width:60%;
+}
+
+
+.portada-imagen img{
+    margin-top: 5vh;
+    height: 70vh;
+}
+
+.no-olvides-informacion{
+    width:  100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+.no-olvides-columna-1{
+    width: 30%;   
+    border-right: 1px solid #000;
+}
+
+.no-olvides-columna-1 li{
+    font-size: 1.2rem;
+    font-family: var(--font-familiy-primary);
+    text-transform: uppercase;
+}
+
+.no-olvides-columna-1 p{
+    font-family: var(--font-familiy-primary);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.no-olvides-columna-1 b{
+    font-weight: 600;
+}
+
+.columna-2{
+    width: 40%;
+}
+
+.columna-2 p{
+     text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.columna-3{
+    width: 50%;
+}
+
+.columna-3 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-3 li{
+    margin-top: 1rem;
+    text-transform: uppercase;
+}       
+
