@@ -169,4 +169,129 @@
 .nurturing p{
     font-size: 1.5rem;
 }
+
+
+
+
+/* =======CONTENT ESTRATEGY======= */
+
+.website-container-content{
+    padding: 2rem;
+}
+
+.informacion-content{
+    width: 100%;
+    flex-direction: column
+}
+
+.contenido-rey{
+    width: 100%;
+}
+
+.menu-lista-informacion{
+    width: 100%;
+    padding: 0;
+}
+
+.menu-lista-informacion li{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+.imagen-marca-content{
+    flex-direction: column;
+    padding: 0;
+
+}
+
+
+.imagen-marca-info{
+    width: 100%;
+    padding: 0;
+    border-right: none;
+    margin-top: 5vh;
+}
+
+.imagen-marca-info h1{
+    font-size: 2rem;
+}
+
+.texto-error-4{
+    width: 100%;
+    flex-direction: column;
+}
+
+.texto-error{
+    width: 100%;
+}
+
+.metodologia-around{
+    width: 100%;
+    padding: 2rem;
+}
+
+.metodologia-titulo{
+    flex-direction: column  ;
+}
+
+.metologia-titulo-container h1{
+    font-size: 2.2rem;
+}
+
+.metodologia-contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-contenido-principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.contenido-izq{
+    width: 100%;
+   
+}
+
+.metodologia-imagen-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenido-der{
+    padding: 2rem;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.portada-imagen img{
+    height: 3   0vh;
+}
+
+.no-olvides-informacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.no-olvides-columna-1{
+    width: 100%;
+}
+
+.no-olvides-informacion{
+    width: 100%;
+}
+
+.columna-2{
+    width: 100%;
+    padding: 2rem;
+}
+
+.columna-3{
+    width: 100%;
+    padding: 2rem;
+}
+
 }
