@@ -67,7 +67,7 @@ img{
     background-color: #fff;
     margin-top: 2rem;
 }
- fg
+
 
 .boton-around a{
     text-decoration: none;
@@ -185,7 +185,8 @@ img{
     align-items: start;
     width: 50%;
     height: auto;
-    margin-top: 10vh
+    margin-top: 10vh;
+    margin-left: 4rem;
 }
 
 /* ========Tercera Seccion======== */
@@ -395,3 +396,11 @@ img{
 }
 
 /* ======Fase 5====== */
+
+/* ====Footer===== */
+
+footer{
+    background: #000;
+    margin-top: 10vh;
+    height: 200px;
+}

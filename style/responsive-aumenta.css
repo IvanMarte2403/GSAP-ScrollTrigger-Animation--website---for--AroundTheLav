@@ -22,6 +22,8 @@
 .menu-aumenta-tus-ventas{
     width: 100%;
     padding: 2rem;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 /* =======Seccion Tres======= */
@@ -53,11 +55,15 @@
     padding: 2rem;
 }
 
+.propuesta-de-valor h1{
+    font-size: 2.5rem;
+
+}
 
 
 
 .titulo-frase1 h1{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .subtitulo-frase1 p{
@@ -68,6 +74,32 @@
 
 .texto-fase1-a{
     width:  100%;
+}
+
+.texto-fase1-a h1{
+    font-size: 2rem !important;
+}
+
+.fase3-titulo{
+    font-size: 2.4rem !important;
+}
+
+.texto-3 p{
+    width: 100%;
+}
+
+.four-contenido p{
+    width: 100% !important;
+    text-align: center;
+}
+
+.texto2-3{
+    font-size: 1.5rem !important;
+}
+
+.subtitulo-frase1 p{
+    width: 100% !important;
+    font-size: 1rem;
 }
 
 .container-seccion-marcas{
