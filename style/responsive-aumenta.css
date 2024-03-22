@@ -394,5 +394,90 @@
     flex-direction: row !important;
 }
 
+/* ==========INFLUENCERS===========L */
+
+.website-container-influencers{
+    padding: 0 2rem;
+}
+
+.container-titulo-influencers h1{
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-family: var(--font-familiy-primary);
+}
+
+.frase-container-titulo p{
+    font-size: 1.5rem;
+    font-family: var(--font-familiy-primary);
+    text-align: center;   
+    width: 100%;
+
+}
+
+.frase-grandes-influencers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    border-bottom: 2px solid #000;
+    padding-bottom: 2rem;
+}
+
+.frase-principal-influencers{
+    width: 100%;
+}
+
+.texto-principal-influencers{
+    width: 100%;
+
+}
+
+.segmentacion-influencers{
+    flex-direction: column ;
+}
+
+.texto-segmentacion{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.listado{
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.porcentajes-influencers{
+    flex-direction: column;
+}
+
+.porcentajes-influencers div{
+    width: 100%;
+}
+
+.consumidores-porcentajes{
+    flex-direction: column;
+}
+
+.consumidores-porcentajes div{
+    width: 100%;
+}
+
+.ugc-contenedor{
+    flex-direction: column;
+}
+
+.ugc-titulo{
+    width: 100%;
+}
+
+.info-ugc{
+    width: 100%;
+    padding: 0;
+}
+
+
+.titulo-hacerlo-increible h1{
+    font-size: 2.5rem;
+}
 
 }
