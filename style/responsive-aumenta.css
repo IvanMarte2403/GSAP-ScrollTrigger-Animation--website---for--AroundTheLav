@@ -294,4 +294,105 @@
     padding: 2rem;
 }
 
+
+/* =======Administración de REDES SOCIALES====== */
+
+.titulo-principal-redes{
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-preguntas-respuestas{
+    flex-direction: column;
+
+}
+
+.pregunta{
+    width: 100%;
+}
+
+.respuesta{
+    width: 100%;
+}
+
+.contenedor-hoy{
+    flex-direction: column;
+}
+
+.contenedor-hoy h1{
+    width: 100%;
+    font-size: 7rem;
+}
+
+.contenedor-hoy p{
+    width: 100%;
+    font-size: 1.5rem;  
+}
+
+.informacion-porcentaje h2{
+    width: 100%;
+}
+
+.convertirnos-columna1{
+    flex-direction: column;
+}
+
+.icono-estrella img{
+    height: auto;
+}
+
+.titulo-convertirnos h1{
+    font-size:  1.4rem;
+    padding: 1rem;
+
+}
+
+
+.titulo-section{
+    flex-direction: column;
+}
+
+.imagen-completa{
+    width: 100%;
+}
+
+.titulos-contenedor{
+    width:  100%;
+    padding: 0;
+    flex-direction: column;
+}
+
+.cubo-convertirnos{
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.gestionar-redes{
+    width: 100%;
+}
+
+.contenido-irresistible{
+    width: 100%;
+    flex-direction: column !important;
+}
+
+.convertirnos-irresistible{
+    width: 100%;
+}
+
+.covertirnos-computadora{
+    width: 100%;
+}
+
+.convertirnos-row2{
+    padding: 0;
+}
+
+.contenedor-estrella-titulo{
+    flex-direction: row !important;
+}
+
+
 }
