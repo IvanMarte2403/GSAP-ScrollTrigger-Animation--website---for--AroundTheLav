@@ -95,7 +95,7 @@ img{
     height: 18px;
     background: #000;
     border-radius: 100%;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .header{
@@ -1182,10 +1182,13 @@ section{
     width: 100%;
     max-width: 600px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Negro transparente */
+    background: #000;
     backdrop-filter: blur(10px); /* Añade el efecto de cristal */
     border-radius: 4px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .formulario form {
     display: flex;
@@ -1199,6 +1202,8 @@ section{
 .formulario .campo label {
     display: block;
     margin-bottom: 10px;
+    font-family: var(--font-familiy-primary);
+    font-size:1.4rem;
 }
 
 .formulario .campo input,
@@ -1213,6 +1218,20 @@ section{
     text-align: right;
 }
 
+.enviar input{
+    font-family: var(--font-familiy-primary) !important;
+    font-size: 1.4rem;
+    width: 50% !important;
+}
+
+.enviar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .formulario .campo.enviar input {
     background-color: #fff;
     color: #000;
@@ -1225,16 +1244,34 @@ section{
     flex-direction: row;
     width: 100%;
     z-index: 9000000;
+    justify-content: center;
+    align-items: center;
 }
 
 .tituloFormulario{
     display: flex;
     width: 100%;
+    flex-direction: column;
 }
 
+.fotografia-formulario{
+    width: 50%;
+}
+
+.fotografia-formulario i{
+    color: #000;
+    font-size: 5rem;
+    padding: 2rem;
+}
 .tituloFormulario h1{
     font-family: var(--font-familiy-primary);
     color: #000;
+    font-size: 5rem;
+}
+.tituloFormulario p{
+    width: 50%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .contenedor-padre-formulario{
@@ -1247,7 +1284,6 @@ section{
     width: 100%;
     
 }
-
 /* ======Redes Sociales====== */
 
 .botton-whatsapp{

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/style-contacto.css">
+    <link rel="stylesheet" href="style/aumenta-tus-ventas.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" href="img/logo.png">
@@ -14,3 +14,80 @@
     <title>Around The Lab</title>
 </head>
 
+<body>
+
+    <div class="menu-around-the-lab">
+        <div class="logo-menu">
+            <a href="https://aroundthelab.com/"><img src="img/logo.png" alt=""> </a>
+        </div>
+    
+        <div class="menu-enlaces">
+            <ul>
+                <li class="dropdown-container">
+                    <a href="">SERVICIOS</a>
+             
+                </li>
+                <li><a href="">CLIENTES</a></li>
+                <li><a href="">CASO DE ÉXITO</a></li>
+                <li><a href="">¿POR QUÉ ELEGIRNOS?</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="website-container-contacto">
+
+        <section class="formulario-section">
+            <div class="tituloFormulario">
+                <h1>CONTACTO</h1>
+                <p>Regístrate ahora para una asesoría gratuita y descubre cómo podemos ayudar a tu empresa a aumentar sus ventas. </p>
+            </div>
+        
+            <div class="contenedor-padre-formulario">
+                
+                <div class="fotografia-formulario">
+                    <a href="https://www.instagram.com/aroundthelab/"><i class="fab fa-instagram"></i></a>
+
+
+                    <a href="https://api.whatsapp.com/send/?phone=5215560117906&text=Vengo+de+around+the+lab+me+gustaria+mas+informacion&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i> </a>
+                </div>
+
+                <div class="contenedor-formulario">
+                    <div class="formulario">
+                        <form action="enviar.php" method="post">
+                            <div class="campo">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="campo">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="campo">
+                                <label for="celular">Celular:</label>
+                                <input type="number" id="celular" name="celular" required>
+                            </div>
+                            <div class="campo">
+                                <label for="mensaje">Cuentanos de tu empresa: </label>
+                                <textarea id="mensaje" name="mensaje" required></textarea>
+                            </div>
+                            <div class="campo enviar">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+        
+                </div>
+
+
+                
+             </div>
+            
+          
+        </section>
+    </div>
+
+</body>
+
+</html>

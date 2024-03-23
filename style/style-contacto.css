@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../font/ClashDisplay-Variable.eot'); /* IE9 Compat Modes */
+    src: url('../font/ClashDisplay-Variable.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/ClashDisplay-Variable.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/ClashDisplay-Variable.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font/ClashDisplay-Variable.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/ClashDisplay-Variable.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+:root{
+    --first-color: #ff66c4;
+    --seconday-color: #00bf63;
+    --third-color: #0390a7;
+    --primary-letter: #000;
+    --secondary-letter: #fff;
+    --font-familiy-primary: 'ClashDisplay';
+    --font-family-secondary: 'Days One';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+html,body{
+    font-family: Montserrat;
+    height: auto;
+    overflow-y:auto;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+h1{
+
+    letter-spacing: -0.02rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.section-space{
+    padding: 0 20vh;
+}
+
+.menu-around-the-lab{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: ROW;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.logo-menu{
+    width: 5%;
+}
+
+.logo-menu img{
+    width: 50%;
+    height: auto;
+}
+
+.menu-enlaces a{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.menu-enlaces ul{
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.website-container-contacto{
+    padding: 0 20vh;  
+}
+
+
+.span-six{
+    background-color: var(--first-color);
+    display: inline-block;
+}
+
+.span-six4{
+    background-color: var(--third-color);
+    display: inline-block;
+}
+
+.span-six2{
+    background-color: var(--secondary-letter);
+    color: #000;
+    font-weight: 500;
+    border-radius: 2.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+
+}
+
+.span-six3{
+    background: transparent;
+    border: 4px solid var(--third-color);
+    display: inline-block;
+
+}
+
+.span-six5{
+    background: transparent;
+    border: 4px solid var(--first-color);
+    display: inline-block;
+
+}
+
+
+
+
+
+/* ======Formulario====== */
+.formulario-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9000000;
+    background-color: #fff;
+    padding-top: 2rem;
+    height: auto;
+}
+.formulario{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #000;
+    backdrop-filter: blur(10px); /* Añade el efecto de cristal */
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .campo {
+    margin-bottom: 20px;
+}
+
+.formulario .campo label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: var(--font-familiy-primary);
+    font-size:1.4rem;
+}
+
+.formulario .campo input,
+.formulario .campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formulario .campo.enviar {
+    text-align: right;
+}
+
+.enviar input{
+    font-family: var(--font-familiy-primary) !important;
+    font-size: 1.4rem;
+    width: 50% !important;
+}
+
+.enviar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .campo.enviar input {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index: 9000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloFormulario{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.fotografia-formulario{
+    width: 50%;
+}
+
+.fotografia-formulario i{
+    color: #000;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.tituloFormulario h1{
+    font-family: var(--font-familiy-primary);
+    color: #000;
+    font-size: 5rem;
+}
+.tituloFormulario p{
+    width: 50%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-padre-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-padre-formulario img{
+    width: 100%;
+    
+}
