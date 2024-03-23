@@ -1,0 +1,73 @@
+
+/* ======Menu Around ===== */
+.menu-around-the-lab{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: ROW;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.logo-menu{
+    width: 5%;
+}
+
+.logo-menu img{
+    width: 50%;
+    height: auto;
+}
+
+.menu-enlaces a{
+    text-decoration: none;
+    color: #fff; 
+    font-family: var(--third-color);
+    padding: 1rem;
+}
+
+.menu-enlaces a:hover{
+    color: var(--third-color);
+    border-left: 4px solid var(--third-color);
+
+}
+
+.menu-enlaces ul{
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.dropdown-container ul{
+    display: none;
+}
+
+
+.dropdown-container:hover ul{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 20%;
+    padding: 1rem;
+    z-index: 1;
+    border-radius: 0.4rem;
+    left: 40%;
+    margin-top: 1vh;
+}
+
+.dropdown-despliegue a{
+    color: #000 !important;
+    font-family: var(--font-familiy-primary);
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.dropdown-despliegue a:hover{
+    color: var(--first-color) !important;
+    border-left: 4px solid var(--first-color);
+}
+
+.dropdown-despliegue li{
+    margin-top: 4vh;
+}
+/* ====================================== */

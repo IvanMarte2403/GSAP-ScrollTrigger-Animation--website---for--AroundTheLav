@@ -76,35 +76,6 @@ img{
     font-weight: 600 !important;
 
 }
-.menu-around-the-lab{
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    flex-direction: ROW;
-    justify-content: space-between;
-    background-color: #000;
-}
-
-.logo-menu{
-    width: 5%;
-}
-
-.logo-menu img{
-    width: 50%;
-    height: auto;
-}
-
-.menu-enlaces a{
-    text-decoration: none;
-    color: #fff; 
-}
-
-.menu-enlaces ul{
-    display: flex; 
-    flex-direction: row;
-    list-style-type: none;
-    gap: 1rem;
-}
 
 
 .aumenta-one{
