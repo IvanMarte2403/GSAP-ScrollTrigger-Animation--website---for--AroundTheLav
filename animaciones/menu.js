@@ -1,4 +1,6 @@
 var menu = document.getElementById('menuLateral');
+var menu2 = document.getElementById('menu2');
+
 var boton = document.getElementById('botonMenu');
 var closebtn = document.querySelector('.closebtn');
 var dropdownContainer = document.querySelector('.dropdown-container');
@@ -36,3 +38,6 @@ dropdown.addEventListener('mouseover', showDropdown);
 dropdown.addEventListener('mouseout', hideDropdown);
 dropdownContent.addEventListener('mouseover', showDropdown);
 dropdownContent.addEventListener('mouseout', hideDropdown);
+
+
+// ======Segundo Menu======

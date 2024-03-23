@@ -1,73 +1,119 @@
 
-/* ======Menu Around ===== */
-.menu-around-the-lab{
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    flex-direction: ROW;
-    justify-content: space-between;
-    background-color: #000;
+:root{
+    --first-color: #ff66c4;
+    --seconday-color: #00bf63;
+    --third-color: #0390a7;
+    --primary-letter: #000;
+    --secondary-letter: #fff;
+    --font-familiy-primary: 'ClashDisplay';
+    --font-family-secondary: 'Days One';
 }
 
-.logo-menu{
-    width: 5%;
-}
-
-.logo-menu img{
-    width: 50%;
+nav{
+    background: #000;
+    width:  100%;
     height: auto;
 }
 
-.menu-enlaces a{
-    text-decoration: none;
-    color: #fff; 
-    font-family: var(--third-color);
+.icono-menu{
+    position: absolute;
+    padding: 2rem;
+}
+
+.icono-menu img{
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 2rem;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    position: relative; /* Agregado para el menú desplegable */
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;  
     padding: 1rem;
 }
 
-.menu-enlaces a:hover{
-    color: var(--third-color);
-    border-left: 4px solid var(--third-color);
-
-}
-
-.menu-enlaces ul{
-    display: flex; 
-    flex-direction: row;
-    list-style-type: none;
-    gap: 1rem;
-}
-
-.dropdown-container ul{
+.checkbtn{
+    font-size: 2rem;
+    color: #fff;
+    float: right;
+    padding: 2rem;
+    margin-right: 20px;
+    cursor: pointer;
     display: none;
 }
 
+#check{
+    display: none;
+}
 
-.dropdown-container:hover ul{
-    display: block;
+.closebtn{
+    display: none;
+}
+
+.dropdown {
+    display: none;
     position: absolute;
-    background-color: #fff;
-    width: 20%;
-    padding: 1rem;
-    z-index: 1;
-    border-radius: 0.4rem;
-    left: 40%;
-    margin-top: 1vh;
+    background-color: #000;
+    width: 50vh;
+    left: 0; /* Agregado para el menú desplegable */
+    z-index: 5; /* Agregado para el menú desplegable */ 
 }
 
-.dropdown-despliegue a{
-    color: #000 !important;
+li:hover .dropdown {
+    display: flex;
+    flex-direction: column;
     font-family: var(--font-familiy-primary);
-    font-weight: 500;
-    padding: 1rem;
+    font-size: 1.2rem;
 }
 
-.dropdown-despliegue a:hover{
-    color: var(--first-color) !important;
-    border-left: 4px solid var(--first-color);
-}
 
-.dropdown-despliegue li{
-    margin-top: 4vh;
+li:hover{
+    border-left: 3px solid #fff;
 }
-/* ====================================== */
+@media only screen and (max-width: 600px) {
+
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15vh;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .closebtn {
+        display: block;
+        position: absolute;
+        top:-5rem;
+        left: 2rem;
+        font-size: 2rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
