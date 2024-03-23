@@ -16,31 +16,38 @@
 
 <body>
 
-    <div class="menu-around-the-lab">
-        <div class="logo-menu">
-           <a href="https://aroundthelab.com/"> <img src="img/logo.png" alt=""></a>
-        </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
     
-        <div class="menu-enlaces">
-            <ul>
-                <li class="dropdown-container">
-                    <a href="">SERVICIOS  <i class="fas fa-caret-down"></i></a>
-                    <ul class="dropdown-despliegue">
-                        <li><a href="aumenta-tus-ventas.html">Aumenta Tus Ventas</a></li>
-                        <li><a href="automatizado-de-ventas.html">Automatiza Tu Negocio</a></li>
-                        <li><a href="content-strategy.html">Contenido Ganador</a></li>
-                        <li><a href="redes-sociales.html">Redes Sociales</a></li>
-                        <li><a href="influencers.html">Influences & UGC</a></li>
-                        <li><a href="desarrollo-sitios-web.html">Desarrollo de Sitios Web & Apps</a></li>
-                    </ul>
-                </li>
-                <li><a href="">CLIENTES</a></li>
-                <li><a href="">CASO DE ÉXITO</a></li>
-                <li><a href="">¿POR QUÉ ELEGIRNOS?</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </div>
-    </div>
+        <a href="" class="icono-menu">
+            <img src="img/Arounthelab-logo-completo.png" alt="">
+        </a>
+    
+        <ul>
+            <li class="close">
+                <label for="check" class="closebtn">
+                    <i class="fas fa-times"></i>
+                </label>
+            </li>
+            <li><a id="services" href="#">SERVICIOS<i class="fas fa-angle-down">    </i></a>
+                <ul id="ul" class="dropdown">
+                    <li><a href="aumenta-tus-ventas.html">Aumenta tus ventas</a></li>
+                    <li><a href="automatizado-de-ventas.html">Automatiza tu Negocio</a></li>
+                    <li><a href="content-strategy.html">Contenido Ganador</a></li>
+                    <li><a href="redes-sociales.html">Redes Sociales</a></li>
+                    <li><a href="influencers.html">Influencers</a></li>
+                    <li><a href="desarrollo-sitios-web.html">Desarrollo de Sitio web</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CLIENTES</a></li>
+            <li><a href="#">CASOS DE ÉXITO</a></li>
+            <li><a href="#">¿POR QUÉ ELEGIRNOS?</a></li>
+            <li><a href="contacto.html">CONTACTO </a></li>
+        </ul>
+    </nav>
 
 
     <div class="website-container-content">
@@ -423,7 +430,7 @@
 
 </body>
 
-
+<script src="animaciones/menu2.js">  </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>

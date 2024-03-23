@@ -33,18 +33,18 @@
                 </li>
                 <li><a id="services" href="#">SERVICIOS<i class="fas fa-angle-down">    </i></a>
                     <ul id="ul" class="dropdown">
-                        <li><a href="#">Aumenta tus ventas</a></li>
-                        <li><a href="#">Automatiza tu Negocio</a></li>
-                        <li><a href="#">Contenido Ganador</a></li>
-                        <li><a href="#">Redes Sociales</a></li>
-                        <li><a href="#">Influencers</a></li>
-                        <li><a href="#">Desarrollo de Sitio web</a></li>
+                        <li><a href="aumenta-tus-ventas.html">Aumenta tus ventas</a></li>
+                        <li><a href="automatizado-de-ventas.html">Automatiza tu Negocio</a></li>
+                        <li><a href="content-strategy.html">Contenido Ganador</a></li>
+                        <li><a href="redes-sociales.html">Redes Sociales</a></li>
+                        <li><a href="influencers.html">Influencers</a></li>
+                        <li><a href="desarrollo-sitios-web.html">Desarrollo de Sitio web</a></li>
                     </ul>
                 </li>
                 <li><a href="#">CLIENTES</a></li>
                 <li><a href="#">CASOS DE ÉXITO</a></li>
                 <li><a href="#">¿POR QUÉ ELEGIRNOS?</a></li>
-                <li><a href="#">CONTACTO </a></li>
+                <li><a href="contacto.html">CONTACTO </a></li>
             </ul>
         </nav>
         <!-- =======Seccion Portada======= -->
@@ -374,28 +374,8 @@
        
 </body>
 
-<script>
-   
-   window.addEventListener('DOMContentLoaded', (event) => {
-    if (window.innerWidth <= 600) { // Si la pantalla es de 600px o menos
-        document.querySelector("#services").parentNode.addEventListener("click", function(event) {
 
-            var ul = document.getElementById("ul");
-            var dropdown = this.querySelector(".dropdown");
-            if (dropdown.style.display === "none" || dropdown.style.display === "") {
-                dropdown.style.display = "flex";
-                dropdown.style.flexDirection = "column";
-                dropdown.style.width = "100%";
-                ul.style.paddingTop = '0px'; 
-            } else {
-                dropdown.style.display = "none";
-            }
-        });
-    }
-});
-    
-    </script>
-
+<script src="animaciones/menu2.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/SplitText.min.js"></script>
