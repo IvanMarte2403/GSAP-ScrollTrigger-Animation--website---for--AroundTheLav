@@ -480,4 +480,90 @@
     font-size: 2.5rem;
 }
 
+/* =========Desarrollo de Sitios Web========== */
+
+.website-container-desarrollo{
+    padding: 2rem;
+}
+
+.titulo-desarrollo{
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.informacion-portada-desarrollo p{
+    width: 100%;
+}
+
+
+.informacion-mundo-digital{
+    flex-direction: column; 
+}
+
+.titulo-mundo-digital{
+    width: 100%;
+}
+
+.informacion-mundo-digital-texto{
+    width: 100%;
+}
+
+
+.desarrollo-computadora{
+    flex-direction: column;
+}
+.titulo-computadora-desarrollo{
+    width: 100%;
+}
+
+.desarrollo-computadora-imagen{
+    width: 100%;
+}
+
+.contenedor-palabras {
+    flex-direction: column;
+}
+
+.contenedor-palabras h2{
+    text-align: center;
+}
+
+.contenedor-palabras img{
+    width: 20%;
+    margin-top: 2rem;
+}
+
+.que-ofrecemos{
+    flex-direction: column;
+}
+
+.titulo-ofrecemos{
+    width: 100% !important;
+    margin-top: 2rem;
+}
+
+.lista-que-ofrecemos{
+    width: 100% !important;
+}
+
+.columna-porque-around{
+    flex-direction: column;
+    width: 100%;
+}
+
+.columna-porque-around div{
+    width: 100%;
+}
+
+.frase-construyamos h1{ 
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.frase-construyamos h2{
+    width: 100%;
+    text-align: center;
+}
+
 }
