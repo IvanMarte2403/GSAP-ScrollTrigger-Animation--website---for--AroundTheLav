@@ -95,7 +95,7 @@ img{
     height: 18px;
     background: #000;
     border-radius: 100%;
-    z-index: 10000;
+    z-index: 1000;
 }
 
 .header{
