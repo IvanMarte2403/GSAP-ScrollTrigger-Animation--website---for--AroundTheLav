@@ -366,6 +366,7 @@ section{
     margin-bottom:  10vh;
     display: flex;
     flex-direction: column;
+    padding: 2rem 8rem;
 }
 
 
@@ -377,7 +378,9 @@ section{
     border-radius: 2rem;
     background-color: #000000;
     border: 2px solid #fff;
+    height: 40vh;
 }
+
 
 .one-video-iframe{
     width: 100%;
@@ -397,6 +400,12 @@ section{
     font-weight: bold;
 }
 
+.info-video p{
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: var(--font-familiy-primary);
+}
 .imagen-bienvenida{
     width: 100%;
     display: flex;
