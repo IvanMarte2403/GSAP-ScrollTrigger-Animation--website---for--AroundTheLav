@@ -367,3 +367,12 @@ gsap.from(".six-traje-frase2 p", {
   opacity: 0,
   duration: 1, // Ajusta esto según tus necesidades
 });
+
+
+
+// =======Botones de Contato=======
+
+document.querySelector('.one-boton').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.querySelector('#formulario').scrollIntoView({ behavior: 'smooth' });
+});
