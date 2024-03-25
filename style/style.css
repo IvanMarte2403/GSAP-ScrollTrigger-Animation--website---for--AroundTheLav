@@ -1162,6 +1162,21 @@ section{
     justify-content: center;
 }
 
+.eight-menu-footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    z-index: 20000;
+
+}
+
+
+.eight-menu-footer div:hover, .eight-menu-footer div:hover h1 {
+    background-color: #000 !important;
+    color: #fff !important;
+}
 
 /* ======Formulario====== */
 .formulario-section{
@@ -1473,7 +1488,9 @@ section{
   .three-div-h1 h1 {
     visibility: hidden;
   }
-  .whatsapp-button {
+
+  
+.whatsapp-button {
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -1490,7 +1507,7 @@ section{
   .whatsapp-button i {
     font-size: 2em;
   }
-
+   
   .numero-ventas{
     font-size: 5rem;
     color: var(--first-color);
