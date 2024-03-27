@@ -653,7 +653,20 @@
     font-size: 2rem;
 }
 
+/* =======Clientes======== */
 
+.columna-marcas{
+    width: 100%;
+    flex-direction: row !important;
+}
+.columna-marcas img{
+    width: 15%;
+    padding: 0;
+}
+
+.marca-size-2{
+    width: 20% !important;
+}
 
 }
 
