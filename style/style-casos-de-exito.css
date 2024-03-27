@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../font/ClashDisplay-Variable.eot'); /* IE9 Compat Modes */
+    src: url('../font/ClashDisplay-Variable.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/ClashDisplay-Variable.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/ClashDisplay-Variable.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font/ClashDisplay-Variable.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/ClashDisplay-Variable.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+:root{
+    --first-color: #ff66c4;
+    --seconday-color: #00bf63;
+    --third-color: #0390a7;
+    --primary-letter: #000;
+    --secondary-letter: #fff;
+    --font-familiy-primary: 'ClashDisplay';
+    --font-family-secondary: 'Days One';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+html,body{
+    font-family: Montserrat;
+    height: auto;
+    overflow-y:auto;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+h1{
+
+    letter-spacing: -0.02rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.section-space{
+    padding: 0 20vh;
+}
+
+.menu-around-the-lab{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: ROW;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.logo-menu{
+    width: 5%;
+}
+
+.logo-menu img{
+    width: 50%;
+    height: auto;
+}
+
+.menu-enlaces a{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.menu-enlaces ul{
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.website-container-content{
+    padding: 0 20vh;
+}
+
+.span-six{
+    background-color: var(--first-color);
+    display: inline-block;
+}
+
+.span-six4{
+    background-color: var(--third-color);
+    display: inline-block;
+}
+
+.span-six2{
+    background-color: var(--secondary-letter);
+    color: #000;
+    font-weight: 500;
+    border-radius: 2.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+
+}
+
+.span-six3{
+    background: transparent;
+    border: 4px solid var(--third-color);
+    display: inline-block;
+
+}
+
+.span-six5{
+    background: transparent;
+    border: 4px solid var(--first-color);
+    display: inline-block;
+
+}
+
+
+
+/* ==============Casos de Éxitoñ================== */
+
+
+
+.titulo-casos-exito h1{
+    font-size: 4rem;
+    font-family: var(--font-familiy-primary);
+    margin-top: 5vh;
+    font-weight: 600;
+}
+
+.titulo-casos-exito p{
+    font-size: 1.5rem;
+    width: 60%;
+    font-family: var(--font-familiy-primary);
+}
+
+
+.casos-exito{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.contenedor-casos-de-exito{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+
+}
+.contenedor-casos-de-exito div{
+    width: 50%;
+}
+
+.logo-contenedor{
+    background-color: #000;
+    padding: 10vh;
+    border-radius: 4rem 4rem 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-contenedor img{
+    width: 90%;
+    height: auto;
+}
+
+.informacion-casos-de-exito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.informacion-casos-de-exito p{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.informacion-casos-de-exito span{
+    color:var(--first-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.logo-prime{
+    width: 50% !important;
+}
+
+.universal-thinking{
+    width: 40% !important;
+}
+
+.keller{
+    width: 40% !important;
+}
