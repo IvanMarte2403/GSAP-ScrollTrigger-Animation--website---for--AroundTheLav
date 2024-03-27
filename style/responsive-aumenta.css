@@ -633,7 +633,25 @@
     width: 100%;
 }
 
+.contenedor-casos-de-exito{
+    flex-direction: column;
+}
 
+.logo-contenedor{
+    width: 100% !important;
+}
+
+.informacion-casos-de-exito{
+    width: 100% !important;
+}
+
+.informacion-casos-de-exito p{
+    font-size: 1.5rem !important;
+}
+
+.informacion-casos-de-exito span{
+    font-size: 2rem;
+}
 
 
 
