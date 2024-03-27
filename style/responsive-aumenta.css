@@ -566,4 +566,77 @@
     text-align: center;
 }
 
+/* =======Porque-que-elegirnos======= */
+
+.titulo-porque-elegirnos{
+    flex-direction: column;
 }
+
+.titulo-porque-elegirnos div{
+    width: 100%;
+}
+
+.titulo-porque-elegirnos h1{
+    font-size: 2.5rem;
+}
+
+.titulo-porque-elegirnos img{
+    width: 20%;
+}
+
+
+.en-around{
+    width: 100%;
+}
+
+.marcas-section{
+    flex-direction: column;
+}
+
+.marcas-section div{
+    width: 40%;
+}
+
+.credenciales-section{
+    width: 100%;
+}
+
+.credenciales-section h1{
+    font-size: 2.5rem;
+}
+
+.fotos-credenciales{
+    flex-direction: column;
+}
+
+.generar-container{
+    width: 100%;
+}
+
+.titulo-como-lo{
+    width: 100% !important;
+    font-size: 1.8rem !important;
+}
+
+
+.creamos-embudos{
+    display: flex;
+    flex-direction: column ;
+}
+
+
+.creamos-embudos-titulo{
+    flex-direction: column;
+}
+
+.creamos-embudos-titulo div{
+    width: 100%;
+}
+
+
+
+
+
+}
+
+
