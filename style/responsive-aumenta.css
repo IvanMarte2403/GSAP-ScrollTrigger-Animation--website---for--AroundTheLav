@@ -668,6 +668,30 @@
     width: 20% !important;
 }
 
+/* =======Contacto======= */
+
+.website-container-contacto {
+    padding: 0 2rem!important;
+}
+
+.website-container-contacto h1{
+    font-size: 3rem;
+}
+
+.website-container-contacto p{
+    width: 70%;
+}
+
+.contenedor-padre-formulario{
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.fotografia-formulario{
+    width: 100%;
+
+}
+
 }
 
 
