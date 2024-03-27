@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../font/ClashDisplay-Variable.eot'); /* IE9 Compat Modes */
+    src: url('../font/ClashDisplay-Variable.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/ClashDisplay-Variable.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/ClashDisplay-Variable.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font/ClashDisplay-Variable.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/ClashDisplay-Variable.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+:root{
+    --first-color: #ff66c4;
+    --seconday-color: #00bf63;
+    --third-color: #0390a7;
+    --primary-letter: #000;
+    --secondary-letter: #fff;
+    --font-familiy-primary: 'ClashDisplay';
+    --font-family-secondary: 'Days One';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+html,body{
+    font-family: Montserrat;
+    height: auto;
+    overflow-y:auto;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+h1{
+
+    letter-spacing: -0.02rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.section-space{
+    padding: 0 20vh;
+}
+
+.menu-around-the-lab{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: ROW;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.logo-menu{
+    width: 5%;
+}
+
+.logo-menu img{
+    width: 50%;
+    height: auto;
+}
+
+.menu-enlaces a{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.menu-enlaces ul{
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.website-container-content{
+    padding: 0 20vh;
+}
+
+.span-six{
+    background-color: var(--first-color);
+    display: inline-block;
+}
+
+.span-six4{
+    background-color: var(--third-color);
+    display: inline-block;
+}
+
+.span-six2{
+    background-color: var(--secondary-letter);
+    color: #000;
+    font-weight: 500;
+    border-radius: 2.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+
+}
+
+.span-six3{
+    background: transparent;
+    border: 4px solid var(--third-color);
+    display: inline-block;
+
+}
+
+.span-six5{
+    background: transparent;
+    border: 4px solid var(--first-color);
+    display: inline-block;
+
+}
+
+
+
+/* =========Clientes=========== */
+
+
+.titulo-clientes h1{
+    font-size: 4rem;
+    font-family: var(--font-familiy-primary);
+    font-family: 500;
+    margin-top: 2rem;
+}
+
+
+.titulo-clientes p{
+     font-family: var(--font-familiy-primary);
+     font-size: 2.4rem;
+}
+
+.container-boton{
+    margin-top: 10vh;
+}
+
+.container-boton a{
+    padding: 1rem 2rem;
+    border: 3px solid #000;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--font-familiy-primary);
+    font-weight: 600;
+}
+
+.container-boton a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.marcas-section{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    padding: 10vh;
+}
+
+
+.columna-marcas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columna-marcas img{
+    width: 20%;
+    padding: 2rem;
+}
+
+.marca-size-2{
+    width: 40% !important;
+}
