@@ -235,6 +235,324 @@ section{
     padding: 0 8rem;
 }
 
+
+/* =========Nueva Seccion Version 2======== */
+
+.version2-1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.version2-1 h1{
+    background: linear-gradient(140deg,#E77A66,#C62672
+    ,#4185F4
+    );
+      -webkit-background-clip: text;
+      color: transparent !important;  
+      font-size: 3.0rem !important;
+      margin-top: 2.4rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 8rem !important;
+    font-family: var(--font-familiy-primary);
+    }
+
+.version2-1 h2{
+    color: #fff;
+    font-size: 4.5rem;
+    text-align: center;
+
+    font-family: var(--font-familiy-primary);
+}
+
+.version2-1-creadores{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.creadores-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.creadores-texto p{
+    color: #ffff;
+    padding: 2rem;
+}
+.subtitulos-creadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulos-creadores h2 {
+ font-size: 2.5rem !important;
+}
+
+.subtitulos-creadores img{
+    width: 5%;
+}
+
+
+
+/* ========Seccion ONE====== */
+
+.ciclo-embudo-version2-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+
+.ciclo-embudo-version2-1 div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.ciclo-embudo-version2-1 h3{
+    color: #fff;
+    font-size: 3rem;
+    width: 90%;
+    text-align: center;
+}
+.ciclo-embudo-version2-1 img{
+    max-height: 10px;
+    width: 70%;
+}
+
+.ciclo-embudo-version2-1 p{
+    color: #fff; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+/* ========Ciclo Embudo Section====== */
+
+
+.ciclo-embudo-section{
+    background-color: #fff;
+    height: auto;
+    margin-top: 10vh;
+    border-radius: 20px 20px 0 0; 
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 10rem;
+}
+
+.ciclo-embudo-section div{
+    width: 50%;
+    padding: 2rem;
+}
+
+.ciclo-embudo-section h2{
+    font-size: 3rem;
+    font-family: var(--font-familiy-primary);
+    font-weight: 500;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+
+.columna-1-ciclo-section p{
+    color: #000;
+    margin-top: 2rem;
+    font-family: var(--font-familiy-primary);
+    font-size: 1.3rem;
+}
+
+.columna-1-ciclo-section span{
+    color: var(--third-color);
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.ciclo-embudo-textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.ciclo-embudo-textos p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-family: var(--font-familiy-primary);
+}
+.embudo-marketing{
+    padding: 1.2rem;
+    background-color: var(--third-color);   
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+.signo-suma{
+    font-size: 4rem !important;
+    font-weight: 600;
+}
+
+/* ========Section Proceso====== */
+
+.proceso{
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.portada-lentes{
+    width: 100%;
+}
+
+.portada-lentes img{
+    max-height: 50vh;
+    border-radius: 50px 50px 0 0;
+}
+
+
+
+.procesos-textos{
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-procesos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.columna-procesos p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: var(--font-familiy-primary);
+    font-weight: 300;
+}
+
+.izq-procesos{
+    width: 60%;
+    padding: 2rem;
+}
+
+.der-procesos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-contacto-procesos{
+    padding: 1rem 2rem;
+    border: 3px solid #fff;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+.numero-procesos{
+    color: var(--first-color);
+}
+
+.numeros-procesos{
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    color: var(--first-color) !important;
+}
+
+
+.nunca-has-visto div{
+    width: 50%;
+    padding: 2rem;
+}
+
+.nunca-has-visto{
+    display: flex;
+    flex-direction: row;
+    padding: 0 8rem;
+}
+
+.nunca-has-visto h1{
+    color: var(--first-color);
+    font-weight: 500;
+    font-size: 4rem;
+    font-family: var(--font-familiy-primary);
+}
+
+.nunca-has-visto p{
+    color: #fff;
+    font-weight: 300;
+    font-family: var(--font-familiy-primary);
+    font-size: 1.2rem;
+}
+
+.no-tienes-pagar h1{
+    font-size: 3rem;
+    font-family: var(--font-familiy-primary);
+    color: #fff;
+    font-weight: 600;
+    padding: 2em;
+}
+
+
+/* ========Seccion Proceso Lista========= */
+
+
+.proceso-lista{
+    width: 100%;
+    height: auto;
+}
+
+.proceso-lista-1 li{
+    color: #fff;
+    list-style: none;
+    font-size: 2.1rem;
+    font-family: var(--font-familiy-primary);
+    font-weight: 600;
+    margin-top: 4vh;
+}
+
+.proceso-lista-1 p{
+    font-family: var(--font-familiy-primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 70%;
+    margin-top: 5vh;
+}
+.proceso-lista-1 i{
+    color: var(--first-color);
+}
+
+.proceso-lista div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.proceso-lista2 li{
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+.proceso-lista2 i{
+    color: var(--third-color);
+}
+
+
+
+
+
+/* =======Lista de Secciones ====== */
+
 .one{
     background-color: rgb(36,164,138,);
     margin-top: 2em;
