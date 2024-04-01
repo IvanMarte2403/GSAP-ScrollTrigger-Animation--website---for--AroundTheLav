@@ -376,3 +376,16 @@ document.querySelector('.one-boton').addEventListener('click', function(event) {
   event.preventDefault();
   document.querySelector('#formulario').scrollIntoView({ behavior: 'smooth' });
 });
+
+
+// ========Galería de Imagenes0============+
+
+// Primero, seleccionamos todas las imágenes en la galería
+var imagenes = document.querySelectorAll('.imagen-galeria img');
+
+// Luego, creamos una línea de tiempo GSAP
+var tl = gsap.timeline({repeat: -1, repeatDelay: 1});
+
+// Añadimos una animación para todas las imágenes
+tl.to(imagenes, {opacity: 0, duration: 1})
+  .to(imagenes, {opacity: 1, duration: 1});
