@@ -288,7 +288,8 @@ section{
     align-items: center;
 }
 .subtitulos-creadores h2 {
- font-size: 2.5rem !important;
+    width: 60% !important;
+ font-size: 3.5rem !important;
 }
 
 .subtitulos-creadores img{

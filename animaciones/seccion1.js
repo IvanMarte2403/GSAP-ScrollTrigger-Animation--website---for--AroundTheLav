@@ -388,4 +388,4 @@ var tl = gsap.timeline({repeat: -1, repeatDelay: 1});
 
 // Añadimos una animación para todas las imágenes
 tl.to(imagenes, {opacity: 0, duration: 1})
-  .to(imagenes, {opacity: 1, duration: 1});
+  .to(imagenes, {opacity: 1, duration: 1}); 
