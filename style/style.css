@@ -815,6 +815,39 @@ section{
     width: 90%;
     height: auto;
 }
+
+
+/* =======Formula-Marketing-Frase========== */
+
+.formula-marketing-frase{
+    padding: 0 8rem;
+    margin-top: 10vh;
+    height: auto;
+}
+
+
+.container-frase-marketing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+
+.container-frase-marketing div{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+}
+
+.container-frase-marketing p{
+    font-family: var(--font-familiy-primary);
+    color: #000; 
+    font-weight: 400;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
 /* =======Lista de Secciones ====== */
 
 .one{
