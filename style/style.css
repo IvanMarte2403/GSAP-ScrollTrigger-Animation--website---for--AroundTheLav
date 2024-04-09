@@ -848,6 +848,46 @@ section{
     text-align: center;
 }
 
+/* ========Nada Sera Igual========= */
+
+
+.nada-sera-igual{
+    padding: 0 8rem;
+    height: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nada-sera-igual p{
+    color: #fff; 
+    padding: 2rem;
+    font-family: var(--font-familiy-primary);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nada-sera-igual span{
+    color: var(--first-color);
+    font-size: 1.5rem;
+}
+
+.nada-sera-igual h1{
+    color: #fff;   
+    font-family: var(--font-familiy-primary);
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 10vh;
+    font-weight: 600;
+}
+
+.nada-sera-igual-center{
+    text-align: center;
+}
+
+
+
 /* =======Lista de Secciones ====== */
 
 .one{
