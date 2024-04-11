@@ -816,6 +816,27 @@ section{
     height: auto;
 }
 
+.preguntas-marketing{
+    padding: 0 8rem;
+  }
+
+  .preguntas-marketing h2{
+    color: #ffff;
+    width: 50%;
+  }
+  
+  .listas-preguntas-marketing i{
+    color: var(--first-color);
+  }
+
+  .listas-preguntas-marketing {
+    color: #fff;
+    list-style: none ;
+  }
+
+  
+
+
 
 /* =======Formula-Marketing-Frase========== */
 
