@@ -122,8 +122,106 @@
         font-weight: 600;
     }
 
-    
+    /* ==========Ciclo Embudo Section======= */
 
+    .izq-procesos h1{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .proceso-lista h1{
+        font-size: 2rem;
+    }
+
+    .proceso-lista-1-testimoniales {
+        width: 100% !important;
+    }
+
+
+    /* ============Titulo Negocio Digital=========== */
+    .titulo-negocio-digital{
+        padding: 0;
+    }
+
+    .peor-escenario{
+        padding: 0 4rem;
+        flex-direction: column;
+    }
+
+    .peor-escenario div{
+        width: 100%;
+    }
+
+    .peor-escenario h1{
+        font-size: 3rem;  
+    }
+
+    .peor-escenario img{
+        margin-top: 5vh;
+        width: 90%;
+    }
+
+
+    .revolucionar-tu-negocio{
+        padding: 0 4rem;
+        flex-direction: column;
+    }
+
+    .revolucionar-tu-negocio div{
+        width: 100%;
+    }
+
+    .revolucionar-tu-negocio h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .textos-revolucionar{
+        flex-direction: column;
+    }
+    
+    .frase-around-grabriel{
+        margin-bottom: 10vh;
+    }
+
+    .formula-marketing{
+        padding: 0 4rem;
+        margin-top: 10vh;
+        flex-direction: column;
+    }
+
+    .formula-marketing div{
+        width: 100%;
+        padding: 0;
+    }
+
+    .formula-marketing h1{
+        font-size: 2.5rem;
+    }
+    
+    .container-frase-marketing div{
+        width: 100%;
+    }
+
+
+    /* ======Seccion Nada Sera Igual==== */
+
+    .nada-sera-igual{
+        padding: 0 4rem;
+        flex-direction: column;
+    }
+    .nada-sera-igual p{
+        padding: 0;
+    }
+
+    .nada-sera-igual h1{
+        width: 100%;
+        font-size: 2.5rem;
+        margin-bottom: 5vh;
+    }
+    /* ==============Seccion One================= */
     .one-creado{
         font-size: 2rem !important;
     }
