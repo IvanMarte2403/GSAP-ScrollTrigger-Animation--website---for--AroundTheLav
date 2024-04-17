@@ -94,7 +94,7 @@ img{
     width: 18px;
     height: 18px;
     background: #000;
-    border-radius: 100%;
+        ius: 100%;
     z-index: 10000;
 }
 
@@ -818,7 +818,20 @@ section{
 
 .preguntas-marketing{
     padding: 0 8rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+.preguntas-marketing ul{
+    background-color: #fff;
+    border-radius: 2rem;
+    width: 90%;
+    height: auto;
+    padding: 0 4rem;
+}
 
   .preguntas-marketing h2{
     color: #ffff;
@@ -830,8 +843,9 @@ section{
   }
 
   .listas-preguntas-marketing {
-    color: #fff;
     list-style: none ;
+    padding: 2rem;
+    font-size: 1.2rem;
   }
 
   

@@ -205,7 +205,17 @@
         width: 100%;
     }
 
+    /* =======Preguntas Marketing====== */
 
+    .preguntas-marketing{
+        padding: 0 !important;
+        margin-top: 10vh;
+        flex-direction: column;
+    }
+
+    .preguntas-marketing ul{
+        padding: 0;
+    }
     /* ======Seccion Nada Sera Igual==== */
 
     .nada-sera-igual{
