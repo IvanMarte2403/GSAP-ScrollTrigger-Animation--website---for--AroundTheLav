@@ -543,6 +543,14 @@ section{
 
 
 /* ============Procesos De Lista de Testimoniales================ */
+.contenedor-imagen-testimoniales{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
 
 .proceso-lista-1-testimoniales li{
     color: #fff;
@@ -551,6 +559,7 @@ section{
     font-weight: 500;
     margin-bottom: 5vh;
     list-style: none;
+
 }
 
 .proceso-lista-1-testimoniales i{
@@ -559,6 +568,7 @@ section{
 
 .proceso-lista-1-testimoniales{
     width: 80%;
+   
 }
 
 .proceso-lista-1-testimoniales ul{
@@ -602,6 +612,12 @@ section{
     margin-top: 4vh;
 }
 
+
+.proceso-lista-1-testimoniales img  {
+    width: 60%;
+    height: auto;
+    border-radius: 4rem;
+}
 
 .proceso-lista-1 p{
     font-family: var(--font-familiy-primary);
