@@ -72,6 +72,9 @@
         width: 100%;
     }
 
+    .numeros-procesos{
+        display: none;
+    }
     .nunca-has-visto{
         padding: 1rem;
         flex-direction: column;
