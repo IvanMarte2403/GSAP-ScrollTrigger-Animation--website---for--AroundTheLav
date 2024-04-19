@@ -574,7 +574,16 @@ section{
 .proceso-lista-1-testimoniales ul{
     list-style: none;
 }
+.conjunto-de-estrellas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.conjunto-de-estrellas i{
+    color: yellow;
+}
 
 /* ========Seccion Proceso Lista========= */
 

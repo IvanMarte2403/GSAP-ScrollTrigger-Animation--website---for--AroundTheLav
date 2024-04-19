@@ -15,7 +15,7 @@
     }
 
     .titulos-version2-1 h1{
-        font-size: 6rem !important;
+        font-size: 5rem !important;
     }
 
     .titulos-version2-1 h2{
@@ -103,7 +103,16 @@
         width: 100%;
     }
 
+    .conjunto-de-estrellas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .conjunto-de-estrellas i{
+        color: yellow;
+    }
     .proceso-lista2 li{
         width: 90%;
     }

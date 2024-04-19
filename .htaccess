@@ -4,3 +4,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 RewriteEngine On 
 RewriteCond %{HTTPS} off 
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.aroundthelab\.com [NC]
+RewriteRule ^(.*)$ https://aroundthelab.com/$1 [L,R=301]
