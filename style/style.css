@@ -343,12 +343,14 @@ section{
     border-radius: 20px 20px 0 0; 
     display: flex;
     flex-direction: row;
-    padding: 2rem 10rem;
+    padding: 2rem 8rem;
 }
+
 
 .ciclo-embudo-section div{
     width: 50%;
     padding: 2rem;
+    
 }
 
 .ciclo-embudo-section h2{
@@ -359,7 +361,11 @@ section{
     text-align: left;
 }
 
-
+.columna-1-ciclo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .columna-1-ciclo-section p{
     color: #000;
     margin-top: 2rem;
@@ -397,6 +403,11 @@ section{
     font-weight: 600;
 }
 
+
+.emprendedores-textos{
+    font-size: var(--font-familiy-primary);
+    font-size: 1.5rem;
+}
 /* ========Section Proceso====== */
 
 .proceso{
@@ -581,8 +592,9 @@ section{
     align-items: center;
 }
 
-.conjunto-de-estrellas i{
-    color: yellow;
+.conjunto-de-estrellas img{
+    width: 20% !important;
+    margin-top: 2rem;
 }
 
 /* ========Seccion Proceso Lista========= */
@@ -623,7 +635,7 @@ section{
 
 
 .proceso-lista-1-testimoniales img  {
-    width: 60%;
+    width: 20%;
     height: auto;
     border-radius: 4rem;
 }

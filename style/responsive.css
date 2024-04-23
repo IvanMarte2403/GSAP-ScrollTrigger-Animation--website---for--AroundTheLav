@@ -43,6 +43,9 @@
         flex-direction: column;
     }
 
+    .ciclo-embudo-section div{
+        width: 100%;
+    }
     .columna-1-ciclo-section{
         width: 100% !important;
     }
@@ -103,16 +106,7 @@
         width: 100%;
     }
 
-    .conjunto-de-estrellas{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .conjunto-de-estrellas i{
-        color: yellow;
-    }
+    
     .proceso-lista2 li{
         width: 90%;
     }
@@ -150,7 +144,13 @@
         width: 100% !important;
     }
 
+    .contenedor-imagen-testimoniales img{
+        width: 50%;    
+    }
 
+    .conjunto-de-estrellas img{
+        width: 40% !important;
+    }
     /* ============Titulo Negocio Digital=========== */
     .titulo-negocio-digital{
         padding: 0;
