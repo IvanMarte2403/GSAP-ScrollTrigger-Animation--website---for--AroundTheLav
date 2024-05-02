@@ -775,7 +775,7 @@ section{
 
 .revolucionar-tu-negocio{
     padding: 0 8rem;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .revolucionar-tu-negocio h1{
@@ -783,12 +783,14 @@ section{
     text-align: center;
     font-weight: 400;
     font-family: var(--font-familiy-primary);
+    margin-bottom: 10vh;
 }
 
 .textos-revolucionar{
     display: flex;
     flex-direction: row;
     margin-bottom: 10vh;
+    justify-content: space-around;
 }
 
 .textos-revolucionar div{
@@ -822,8 +824,18 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20% !important;
+    flex-direction: column;
 }
 
+.texto-revolucionar-imagen a{
+    margin-top: 2rem;
+}
+
+.texto-revolucionar-imagen img{
+    width: 100%;
+    height: auto;
+}
 
 .frase-around-gabriel{
     background-color: #ffff;

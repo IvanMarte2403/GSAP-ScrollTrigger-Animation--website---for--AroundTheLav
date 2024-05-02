@@ -214,6 +214,17 @@
         flex-direction: column;
     }
     
+    .texto-revolucionar-imagen{
+        width: 100% !important;
+    }
+
+    .texto-revolucionar-imagen img{
+        width: 40%;
+        margin-top: 5vh;
+    }
+
+
+
     .frase-around-grabriel{
         margin-bottom: 10vh;
     }
