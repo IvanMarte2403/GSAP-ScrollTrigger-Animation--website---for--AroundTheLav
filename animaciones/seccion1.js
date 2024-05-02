@@ -389,3 +389,16 @@ var tl = gsap.timeline({repeat: -1, repeatDelay: 1});
 // Añadimos una animación para todas las imágenes
 tl.to(imagenes, {opacity: 0, duration: 1})
   .to(imagenes, {opacity: 1, duration: 1}); 
+
+
+
+// Transicion de La Página
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if( target.length ) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+          scrollTop: target.offset().top
+      }, 1000);
+  }
+});
