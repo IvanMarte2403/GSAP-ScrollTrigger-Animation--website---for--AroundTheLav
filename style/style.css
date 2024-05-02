@@ -853,6 +853,7 @@ section{
 .formula-marketing{
     padding: 0 8rem;
     margin-top: 10vh;
+    height: auto;
 }
 
 .formula-marketing div{
